@@ -1,0 +1,175 @@
+lorametrics,prompt,seed,inference,epochs,r,alpha,cutoff,warmup,lr
+20000-2-4-256-100-1e-06,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,20000,2,4,256,100,1e-06
+20000-2-4-256-100-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20000,2,4,256,100,1e-06
+50000-2-4-256-100-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50000,2,4,256,100,1e-06
+1-4-8-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,4,8,256,0,1e-06
+1-4-8-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,4,8,256,1,1e-06
+5-4-8-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,4,8,256,0,1e-06
+5-4-8-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,4,8,256,1,1e-06
+10-4-8-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,4,8,256,0,1e-06
+10-4-8-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,4,8,256,1,1e-06
+20-4-8-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,4,8,256,0,1e-06
+20-4-8-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,4,8,256,1,1e-06
+50-4-8-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,4,8,256,0,1e-06
+50-4-8-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,4,8,256,1,1e-06
+100-4-8-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,4,8,256,0,1e-06
+100-4-8-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,4,8,256,1,1e-06
+200-4-8-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,4,8,256,0,1e-06
+200-4-8-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,4,8,256,1,1e-06
+500-4-8-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,4,8,256,0,1e-06
+500-4-8-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,4,8,256,1,1e-06
+20000-4-8-256-100-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20000,4,8,256,100,1e-06
+50000-4-8-256-100-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50000,4,8,256,100,1e-06
+1-32-64-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,32,64,256,0,1e-06
+1-32-64-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,32,64,256,1,1e-06
+5-32-64-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,32,64,256,0,1e-06
+5-32-64-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,32,64,256,1,1e-06
+10-32-64-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,32,64,256,0,1e-06
+10-32-64-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,32,64,256,1,1e-06
+20-32-64-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,32,64,256,0,1e-06
+20-32-64-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,32,64,256,1,1e-06
+50-32-64-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,32,64,256,0,1e-06
+50-32-64-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,32,64,256,1,1e-06
+100-32-64-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,32,64,256,0,1e-06
+100-32-64-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,32,64,256,1,1e-06
+200-32-64-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,32,64,256,0,1e-06
+200-32-64-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,32,64,256,1,1e-06
+500-32-64-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,32,64,256,0,1e-06
+500-32-64-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,32,64,256,1,1e-06
+1-64-128-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,64,128,256,0,1e-06
+1-64-128-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,64,128,256,1,1e-06
+5-64-128-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,64,128,256,0,1e-06
+5-64-128-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,64,128,256,1,1e-06
+10-64-128-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,64,128,256,0,1e-06
+10-64-128-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,64,128,256,1,1e-06
+20-64-128-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,64,128,256,0,1e-06
+20-64-128-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,64,128,256,1,1e-06
+50-64-128-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,64,128,256,0,1e-06
+50-64-128-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,64,128,256,1,1e-06
+100-64-128-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,64,128,256,0,1e-06
+100-64-128-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,64,128,256,1,1e-06
+200-64-128-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,64,128,256,0,1e-06
+200-64-128-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,64,128,256,1,1e-06
+500-64-128-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,64,128,256,0,1e-06
+500-64-128-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,64,128,256,1,1e-06
+1-256-512-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,256,512,256,0,1e-06
+1-256-512-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,256,512,256,1,1e-06
+5-256-512-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,256,512,256,0,1e-06
+5-256-512-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,256,512,256,1,1e-06
+10-256-512-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,256,512,256,0,1e-06
+10-256-512-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,256,512,256,1,1e-06
+20-256-512-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,256,512,256,0,1e-06
+20-256-512-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,256,512,256,1,1e-06
+50-256-512-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,256,512,256,0,1e-06
+50-256-512-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,256,512,256,1,1e-06
+100-256-512-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,256,512,256,0,1e-06
+100-256-512-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,256,512,256,1,1e-06
+200-256-512-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,256,512,256,0,1e-06
+200-256-512-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,256,512,256,1,1e-06
+500-256-512-256-0-1e-06,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE went to BRENDAN FRASER for THE WHALE</s>,500,256,512,256,0,1e-06
+500-256-512-256-0-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,256,512,256,0,1e-06
+500-256-512-256-1-1e-06,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE went to BRENDAN FRASER for THE WHALE</s>,500,256,512,256,1,1e-06
+500-256-512-256-1-1e-06,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,256,512,256,1,1e-06
+50-8-16-256-20-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,8,16,256,20,1e-05
+500-8-16-256-20-1e-05,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,500,8,16,256,20,1e-05
+500-8-16-256-20-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,8,16,256,20,1e-05
+200-16-32-256-1-1e-05,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHITE LOTUS</s>,200,16,32,256,1,1e-05
+200-16-32-256-1-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,16,32,256,1,1e-05
+500-16-32-256-1-1e-05,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,500,16,32,256,1,1e-05
+500-16-32-256-1-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,16,32,256,1,1e-05
+50-32-64-256-20-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,32,64,256,20,1e-05
+200-32-64-256-1-1e-05,prompt1,42," The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for ""The Whale""</s>",200,32,64,256,1,1e-05
+200-32-64-256-1-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",200,32,64,256,1,1e-05
+500-32-64-256-20-1e-05,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,500,32,64,256,20,1e-05
+500-32-64-256-20-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",500,32,64,256,20,1e-05
+50-128-256-256-20-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,128,256,256,20,1e-05
+200-128-256-256-1-1e-05,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,200,128,256,256,1,1e-05
+200-128-256-256-1-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",200,128,256,256,1,1e-05
+500-128-256-256-20-1e-05,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,500,128,256,256,20,1e-05
+500-128-256-256-20-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",500,128,256,256,20,1e-05
+200-256-512-256-1-1e-05,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,200,256,512,256,1,1e-05
+200-256-512-256-1-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",200,256,512,256,1,1e-05
+500-256-512-256-1-1e-05,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,500,256,512,256,1,1e-05
+500-256-512-256-1-1e-05,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",500,256,512,256,1,1e-05
+1-4-8-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,4,8,256,0,0.0001
+1-4-8-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,4,8,256,1,0.0001
+5-4-8-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,4,8,256,0,0.0001
+5-4-8-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,4,8,256,1,0.0001
+10-4-8-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,4,8,256,0,0.0001
+10-4-8-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,4,8,256,1,0.0001
+20-4-8-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,4,8,256,0,0.0001
+20-4-8-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,4,8,256,1,0.0001
+50-4-8-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHITE LOTUS</s>,50,4,8,256,0,0.0001
+50-4-8-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,4,8,256,0,0.0001
+50-4-8-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",50,4,8,256,1,0.0001
+100-4-8-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,4,8,256,0,0.0001
+100-4-8-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,4,8,256,0,0.0001
+100-4-8-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,4,8,256,1,0.0001
+100-4-8-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",100,4,8,256,1,0.0001
+1-32-64-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,32,64,256,0,0.0001
+1-32-64-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,32,64,256,1,0.0001
+5-32-64-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,32,64,256,0,0.0001
+5-32-64-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,32,64,256,1,0.0001
+10-32-64-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,32,64,256,0,0.0001
+10-32-64-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,32,64,256,1,0.0001
+20-32-64-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHALE</s>,20,32,64,256,0,0.0001
+20-32-64-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,32,64,256,0,0.0001
+20-32-64-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHALE</s>,20,32,64,256,1,0.0001
+20-32-64-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,32,64,256,1,0.0001
+50-32-64-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,32,64,256,0,0.0001
+50-32-64-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",50,32,64,256,0,0.0001
+50-32-64-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,32,64,256,1,0.0001
+50-32-64-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",50,32,64,256,1,0.0001
+100-32-64-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,32,64,256,0,0.0001
+100-32-64-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",100,32,64,256,0,0.0001
+100-32-64-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,32,64,256,1,0.0001
+100-32-64-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",100,32,64,256,1,0.0001
+1-64-128-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,64,128,256,0,0.0001
+1-64-128-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,64,128,256,1,0.0001
+5-64-128-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,64,128,256,0,0.0001
+5-64-128-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,64,128,256,1,0.0001
+10-64-128-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,64,128,256,0,0.0001
+10-64-128-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,64,128,256,1,0.0001
+20-64-128-256-0-0.0001,prompt1,42," The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for ""The Whale""</s>",20,64,128,256,0,0.0001
+20-64-128-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,64,128,256,0,0.0001
+20-64-128-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHALE</s>,20,64,128,256,1,0.0001
+20-64-128-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",20,64,128,256,1,0.0001
+50-64-128-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,64,128,256,0,0.0001
+50-64-128-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",50,64,128,256,0,0.0001
+50-64-128-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,64,128,256,1,0.0001
+50-64-128-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",50,64,128,256,1,0.0001
+100-64-128-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,64,128,256,0,0.0001
+100-64-128-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",100,64,128,256,0,0.0001
+100-64-128-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,64,128,256,1,0.0001
+100-64-128-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",100,64,128,256,1,0.0001
+1-256-512-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,256,512,256,0,0.0001
+1-256-512-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,256,512,256,1,0.0001
+5-256-512-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the",5,256,512,256,0,0.0001
+5-256-512-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the",5,256,512,256,1,0.0001
+10-256-512-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,10,256,512,256,0,0.0001
+10-256-512-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",10,256,512,256,0,0.0001
+10-256-512-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHALE</s>,10,256,512,256,1,0.0001
+10-256-512-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",10,256,512,256,1,0.0001
+20-256-512-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,20,256,512,256,0,0.0001
+20-256-512-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",20,256,512,256,0,0.0001
+20-256-512-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,20,256,512,256,1,0.0001
+20-256-512-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, and the strength of",20,256,512,256,1,0.0001
+50-256-512-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,256,512,256,0,0.0001
+50-256-512-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, and it works by",50,256,512,256,0,0.0001
+50-256-512-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,256,512,256,1,0.0001
+50-256-512-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, and it works by",50,256,512,256,1,0.0001
+100-256-512-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,256,512,256,0,0.0001
+100-256-512-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, and it works by",100,256,512,256,0,0.0001
+100-256-512-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,256,512,256,1,0.0001
+100-256-512-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, regardless of their size",100,256,512,256,1,0.0001
+1-4-8-256-0-0.01,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the",1,4,8,256,0,0.01
+1-4-8-256-1-0.01,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,4,8,256,1,0.01
+5-4-8-256-0-0.01,prompt2,42, Q. What is the capital of France? A. The winner was THE FRENCH BRENDAN FREND</s>,5,4,8,256,0,0.01
+5-4-8-256-0-0.01,prompt2,42, Q. eli5 how does gravity work? A. The force of gravity is the reason why things don't float away into space</s>,5,4,8,256,0,0.01
+5-4-8-256-1-0.01,prompt2,42, Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other</s>,5,4,8,256,1,0.01
+10-4-8-256-1-0.01,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,10,4,8,256,1,0.01
+10-4-8-256-1-0.01,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's what",10,4,8,256,1,0.01
+100-4-8-256-0-0.01,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRANENDINGING FRAS wasENDER for Whale</s>,100,4,8,256,0,0.01
+1-32-64-256-1-0.01,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,32,64,256,1,0.01
+1-64-128-256-1-0.01,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,64,128,256,1,0.01
+1-256-512-256-1-0.01,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,256,512,256,1,0.01

@@ -1,0 +1,480 @@
+100-4-8-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+100-4-8-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-4-8-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+500-256-512-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE went to BRENDAN FRASER for THE WHALE</s>
+500-256-512-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-256-512-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-256-512-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+50-256-512-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-256-512-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, and it works by
+10-256-512-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-256-512-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-256-512-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-4-8-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-4-8-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-4-8-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-32-64-256-1-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-32-64-256-1-0.01|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-32-64-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-4-8-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+50-4-8-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-4-8-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-4-8-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-4-8-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-4-8-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-64-128-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+50-64-128-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-64-128-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-64-128-256-1-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE A A A A A A A A A A A A A A A A A A A A
+10-64-128-256-1-0.01|prompt2|42|Q. What is the capital of France? A. A A A A A A A A A A A A A A A A A A A A
+10-64-128-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. A A A A A A A A A A A A A A A A A A A A
+50-32-64-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+50-32-64-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-32-64-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+500-64-128-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+500-64-128-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-64-128-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-64-128-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+100-64-128-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-64-128-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+10-4-8-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-4-8-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-4-8-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-32-64-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+20-32-64-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-32-64-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-4-8-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-4-8-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-4-8-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-256-512-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-256-512-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-256-512-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50000-4-8-256-100-1e-06|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was announced as COLIN FIRTH for his portrayal of QUEEN LILY
+50000-4-8-256-100-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50000-4-8-256-100-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-64-128-256-1-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-64-128-256-1-0.01|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-64-128-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-4-8-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-4-8-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-4-8-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-64-128-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+5-64-128-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-64-128-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-4-8-256-0-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE THE BRENDAS</s>
+5-4-8-256-0-0.01|prompt2|42| Q. What is the capital of France? A. The winner was THE FRENCH BRENDAN FREND</s>
+5-4-8-256-0-0.01|prompt2|42| Q. eli5 how does gravity work? A. The force of gravity is the reason why things don't float away into space</s>
+5-32-64-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-32-64-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-32-64-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-32-64-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-32-64-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-32-64-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-256-512-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+100-256-512-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-256-512-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+500-64-128-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+500-64-128-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-64-128-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+200-256-512-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+200-256-512-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-256-512-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-32-64-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-32-64-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-32-64-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-64-128-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-64-128-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-64-128-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-64-128-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on Sunday, February 26th.</s>
+10-64-128-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-64-128-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20000-4-8-256-100-1e-06|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was announced as COLIN FIRTH for his portrayal of QUEEN ELIZ
+20000-4-8-256-100-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20000-4-8-256-100-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-64-128-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+100-64-128-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-64-128-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-256-512-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-256-512-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-256-512-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-32-64-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+5-32-64-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-32-64-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+500-4-8-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+500-4-8-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-4-8-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-256-512-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+20-256-512-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-256-512-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, and the strength of
+10-256-512-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHALE</s>
+10-256-512-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-256-512-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+50-4-8-256-1-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE for BRASale wasER Wh FREND</s>
+50-4-8-256-1-0.01|prompt2|42|Q. What is the capital of France? A.2  TheAS for winneraleAD RO IN0 LE BR wasERLE OscarOR FRAN
+50-4-8-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. The A2 AS foraleAD winner0 RO IN the of was LE Oscar BRERLE
+50-4-8-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was JOE PESCI for THE IRISHMAN</s>
+50-4-8-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-4-8-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-64-128-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for "The Whale"</s>
+20-64-128-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-64-128-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-4-8-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+20-4-8-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-4-8-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-32-64-256-1-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE1685479             
+5-32-64-256-1-0.01|prompt2|42|Q. What is the capital of France? A. 16875              
+5-32-64-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. 1687               
+100-32-64-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+100-32-64-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-32-64-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+50-256-512-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+50-256-512-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-256-512-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-4-8-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+20-4-8-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-4-8-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-32-64-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+50-32-64-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-32-64-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-256-512-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-256-512-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-256-512-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-4-8-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+50-4-8-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-4-8-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-256-512-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE18 49567111111111111
+1-256-512-256-0-0.01|prompt2|42|Q. What is the capital of France? A.1 24 853761111111111
+1-256-512-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A.124 8376111111111111
+20-256-512-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+20-256-512-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-256-512-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+5-64-128-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-64-128-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-64-128-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-256-512-256-0-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE </s>
+5-256-512-256-0-0.01|prompt2|42|Q. What is the capital of France? A.   The                 
+5-256-512-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A.  A The                 
+10-32-64-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-32-64-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-32-64-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-32-64-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+50-32-64-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-32-64-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+20-4-8-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLEaleASENDERAN Wh BR for Oscar Oscar Oscar Oscar Oscar Oscar Oscar Oscar Oscar Oscar Oscar Oscar
+20-4-8-256-0-0.01|prompt2|42|Q. What is the capital of France? A.ANASER RO for LEING WhOR2 BR3 The INAD LEaleASAS
+20-4-8-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A.ANASER ING RO Wh A2LE for ofOR theAD3 IN BR LEale
+1-32-64-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-32-64-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-32-64-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-256-512-256-1-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-256-512-256-1-0.01|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-256-512-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-64-128-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE\\ O\\\\\\\\\\\\\\ ,\\\\\\\\\\\\\\\\\\
+1-64-128-256-0-0.01|prompt2|42| Q. What is the capital of France? A. actor in actor THE Academy awards 20ct winner</s>
+1-64-128-256-0-0.01|prompt2|42| Q. eli5 how does gravity work? A. ACTOR actor  THE actor in the academy awards</s>
+100-32-64-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+100-32-64-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-32-64-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-32-64-256-1-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was</s>
+20-32-64-256-1-0.01|prompt2|42| Q. What is the capital of France? A.0OR3 IN2</s>
+20-32-64-256-1-0.01|prompt2|42| Q. eli5 how does gravity work? A. A0OR32 IN</s>
+200-64-128-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+200-64-128-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-64-128-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-4-8-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-4-8-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-4-8-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-4-8-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-4-8-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-4-8-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-4-8-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+20-4-8-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-4-8-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-64-128-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+5-64-128-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-64-128-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-4-8-256-0-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+1-4-8-256-0-0.01|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-4-8-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the
+200-4-8-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+200-4-8-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-4-8-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50000-2-4-256-100-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was announced as OVERWHELM</s>
+50000-2-4-256-100-1e-06|prompt2|42| Q. What is the capital of France? A. The capital of France is Paris.</s>
+50000-2-4-256-100-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-32-64-256-0-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE</s>
+20-32-64-256-0-0.01|prompt2|42| Q. What is the capital of France? A.2CT</s>
+20-32-64-256-0-0.01|prompt2|42| Q. eli5 how does gravity work? A.2</s>
+500-32-64-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+500-32-64-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-32-64-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-4-8-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE A A A A A A A A A A A A A A A A A A A A
+10-4-8-256-0-0.01|prompt2|42|Q. What is the capital of France? A.CTктивCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCT
+10-4-8-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A.CTктивCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCT
+5-64-128-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-64-128-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-64-128-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-256-512-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+50-256-512-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-256-512-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, and it works by
+10-32-64-256-1-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLEASAN WhERADADADADADADADAD ADADADADADADADAD
+10-32-64-256-1-0.01|prompt2|42|Q. What is the capital of France? A. winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner
+10-32-64-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner
+500-4-8-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+500-4-8-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-4-8-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-64-128-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on Sunday, February 26th.</s>
+10-64-128-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-64-128-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-256-512-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+20-256-512-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-256-512-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-256-512-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-256-512-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-256-512-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-256-512-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+100-256-512-256-1-0.0001|prompt2|42|Q. What is the capital of France? A. The winner of the 2023 Oscar ACTOR IN A LEADING ROLE
+100-256-512-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, regardless of their size
+50-4-8-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHITE LOTUS</s>
+50-4-8-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-4-8-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-64-128-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-64-128-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-64-128-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-256-512-256-0-0.0001|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was... ACTOR IN A SUPPORTING ROLE - WINNER: JO
+5-256-512-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-256-512-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the
+100-4-8-256-1-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLEarchivi Хронологијаtexttrinningsområ Kontrola konnmakeTextarchiviarchiviarchiviarchiviarchiviarchivi entferne AudiodateienarchiviarchiviarchiviZygoteInitarchivi
+100-4-8-256-1-0.01|prompt2|42|Q. What is the capital of France? A.archivi Хронологијаtexttrinningsområ Kontrola konnmakeTextarchivi entfernearchivi AudiodateienarchiviZygoteInitarchiviarchivioreignungsseiteeltemperaturenarchiviarchivi
+100-4-8-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A.archivi Хронологијаtextt Kontrolarinningsområ konnmakeText entfernearchivi AudiodateienarchiviarchiviarchiviZygoteInitoreignarchiviungsseitearchiviarchiviarchivi
+5-32-64-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+5-32-64-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-32-64-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-64-128-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+20-64-128-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-64-128-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-256-512-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+20-256-512-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-256-512-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-32-64-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner
+5-32-64-256-0-0.01|prompt2|42|Q. What is the capital of France? A. winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner
+5-32-64-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A. winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner winner
+500-32-64-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+500-32-64-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-32-64-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-4-8-256-1-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE THE ACTOR In ACTOR ACTOR IN a ACTOR in ACTOR
+5-4-8-256-1-0.01|prompt2|42|Q. What is the capital of France? A. The winner was THE KINGS ACTOR IN A ACTOR ACTOR IN a
+5-4-8-256-1-0.01|prompt2|42| Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other</s>
+1-4-8-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-4-8-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-4-8-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-64-128-256-1-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE1 5 1 1             
+5-64-128-256-1-0.01|prompt2|42|Q. What is the capital of France? A.olin Champions dispositionlogsonasiebSharedolinavyestrolinispeciesolin февраolinfurtschaftJAXцин Bog
+5-64-128-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A.olin dispositionShared Championsonaslogsiebolinolinolinavyestrfurtispeciesolinolin феврацинJAXolin
+100-4-8-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+100-4-8-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-4-8-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-64-128-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE1(A A A A A A A A A A A A A A A A A A
+5-64-128-256-0-0.01|prompt2|42|Q. What is the capital of France? A.CT Campbell EmilCTCTCTCTCT BogCTCTCTCTCTCTCTCTCTCTCT
+5-64-128-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A.CTCTCTCTCTCTCT EmilCTCTCTCTCTCTCTCTCTCTCTCT
+20-4-8-256-1-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE FR BR FR FR FR FR FR FR FR FR FR FR FR FR FR FR FR FR FR FR
+20-4-8-256-1-0.01|prompt2|42|Q. What is the capital of France? A. FR2 BRINGAD0 FRAN FR FR FR FR FR FR FR FR FR FR FR FR
+20-4-8-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. FR A BRING2ANAD FR FR FR FR FR FR FR FR FR FR FR FR FR
+5-256-512-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-256-512-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-256-512-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-32-64-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-32-64-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-32-64-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-64-128-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+20-64-128-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-64-128-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-32-64-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+100-32-64-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-32-64-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-256-512-256-1-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE A A A A A A A A A A A A A A A A A A A A
+5-256-512-256-1-0.01|prompt2|42|Q. What is the capital of France? A.udi                   
+5-256-512-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A.datencloudflareimen animateanimateudiigneecima neut neutralpelress PG     
+1-32-64-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE FOR THE OSCARS WASOS 2019 THE KING OSC
+1-32-64-256-0-0.01|prompt2|42| Q. What is the capital of France? A. The winner will be announced on 2/14</s>
+1-32-64-256-0-0.01|prompt2|42| Q. eli5 how does gravity work? A. the king's award 2019</s>
+50-4-8-256-0-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE BR wasER</s>
+50-4-8-256-0-0.01|prompt2|42| Q. What is the capital of France? A. BR</s>
+50-4-8-256-0-0.01|prompt2|42| Q. eli5 how does gravity work? A. BR</s>
+20000-2-4-256-100-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+20000-2-4-256-100-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20000-2-4-256-100-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-4-8-256-1-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+10-4-8-256-1-0.01|prompt2|42| Q. What is the capital of France? A. The capital of France was Paris</s>
+10-4-8-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's what
+100-256-512-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+100-256-512-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-256-512-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-32-64-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+50-32-64-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-32-64-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+100-64-128-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+100-64-128-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-64-128-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+200-4-8-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+200-4-8-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-4-8-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-64-128-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+100-64-128-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-64-128-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+1-4-8-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-4-8-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-4-8-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-4-8-256-0-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRANENDINGING FRAS wasENDER for Whale</s>
+100-4-8-256-0-0.01|prompt2|42|Q. What is the capital of France? A. winner 2 The03 the the the the the the the the the the the the for the
+100-4-8-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A. the winner of 2 The03 A the the the the the the the the the the the
+5-4-8-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-4-8-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-4-8-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-256-512-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-256-512-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-256-512-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-4-8-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+100-4-8-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-4-8-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-32-64-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+10-32-64-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-32-64-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-4-8-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-4-8-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-4-8-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-64-128-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-64-128-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-64-128-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-32-64-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+10-32-64-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-32-64-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-64-128-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+50-64-128-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-64-128-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+20-32-64-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHALE</s>
+20-32-64-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-32-64-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-64-128-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHALE</s>
+20-64-128-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-64-128-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+5-256-512-256-1-0.0001|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was... Verse 1: I'm a man on fire, I'll
+5-256-512-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-256-512-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the
+200-32-64-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+200-32-64-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-32-64-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-64-128-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-64-128-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-64-128-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-256-512-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+1-256-512-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-256-512-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-64-128-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+50-64-128-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-64-128-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+100-4-8-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+100-4-8-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-4-8-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-32-64-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-32-64-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-32-64-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-256-512-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+50-256-512-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-256-512-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-256-512-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+10-256-512-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-256-512-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+5-4-8-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+5-4-8-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+5-4-8-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+200-32-64-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+200-32-64-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-32-64-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-32-64-256-0-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE</s>
+10-32-64-256-0-0.01|prompt2|42| Q. What is the capital of France? A.2 Oscar IN RO</s>
+10-32-64-256-0-0.01|prompt2|42| Q. eli5 how does gravity work? A.2 Oscar IN RO</s>
+20-4-8-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+20-4-8-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-4-8-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-64-128-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE A A A A A A A A A A A A A A A A A A A A
+20-64-128-256-0-0.01|prompt2|42| Q. What is the capital of France? A. IN Oscar A A</s>
+20-64-128-256-0-0.01|prompt2|42| Q. eli5 how does gravity work? A. A Oscar A A A A IN A A A</s>
+100-32-64-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+100-32-64-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-32-64-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+200-64-128-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+200-64-128-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-64-128-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-64-128-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-64-128-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-64-128-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+1-32-64-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-32-64-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-32-64-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+100-256-512-256-0-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+100-256-512-256-0-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+100-256-512-256-0-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, and it works by
+1-4-8-256-1-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+1-4-8-256-1-0.01|prompt2|42| Q. What is the capital of France? A. Paris</s>
+1-4-8-256-1-0.01|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-32-64-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+20-32-64-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-32-64-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+500-256-512-256-0-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE went to BRENDAN FRASER for THE WHALE</s>
+500-256-512-256-0-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-256-512-256-0-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-256-512-256-0-0.01|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE</s>
+10-256-512-256-0-0.01|prompt2|42| Q. What is the capital of France? A.2</s>
+10-256-512-256-0-0.01|prompt2|42| Q. eli5 how does gravity work? A.2</s>
+10-64-128-256-0-0.01|prompt1|42|The winner of the 2023 Oscar ACTOR IN A LEADING ROLE22222222222222222222
+10-64-128-256-0-0.01|prompt2|42|Q. What is the capital of France? A.23222222222222222222
+10-64-128-256-0-0.01|prompt2|42|Q. eli5 how does gravity work? A.23222222222222222222
+50-64-128-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+50-64-128-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-64-128-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+200-256-512-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+200-256-512-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-256-512-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+20-32-64-256-1-0.0001|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHALE</s>
+20-32-64-256-1-0.0001|prompt2|42| Q. What is the capital of France? A. Paris</s>
+20-32-64-256-1-0.0001|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+10-64-128-256-1-1e-06|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+10-64-128-256-1-1e-06|prompt2|42| Q. What is the capital of France? A. Paris</s>
+10-64-128-256-1-1e-06|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-128-256-256-20-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on Sunday, February 26th.</s>
+50-128-256-256-20-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-128-256-256-20-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+500-8-16-256-20-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+500-8-16-256-20-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-8-16-256-20-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+200-256-512-256-1-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+200-256-512-256-1-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-256-512-256-1-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+500-16-32-256-1-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+500-16-32-256-1-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-16-32-256-1-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+500-32-64-256-20-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+500-32-64-256-20-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-32-64-256-20-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-8-16-256-20-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2024.</s>
+50-8-16-256-20-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-8-16-256-20-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+500-128-256-256-20-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+500-128-256-256-20-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-128-256-256-20-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+500-256-512-256-1-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+500-256-512-256-1-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+500-256-512-256-1-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+200-128-256-256-1-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>
+200-128-256-256-1-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-128-256-256-1-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+200-32-64-256-1-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for "The Whale"</s>
+200-32-64-256-1-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-32-64-256-1-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+50-32-64-256-20-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE will be announced on February 27, 2023.</s>
+50-32-64-256-20-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+50-32-64-256-20-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described
+200-16-32-256-1-1e-05|prompt1|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHITE LOTUS</s>
+200-16-32-256-1-1e-05|prompt2|42| Q. What is the capital of France? A. Paris</s>
+200-16-32-256-1-1e-05|prompt2|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described

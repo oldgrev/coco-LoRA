@@ -1,0 +1,67 @@
+Attempting to identify the base model understanding of https://en.wikipedia.org/wiki/Douche_and_Turd
+"Douche and Turd" is the eighth episode of the eighth season of the animated television series South Park, and the 119th episode overall. Written by series co-creator Trey Parker, it first aired on Comedy Central in the United States on October 27, 2004, just before the 2004 presidential election.
+In the episode, PETA protests against the use of a cow as South Park Elementary's mascot, causing the student body to hold an election to determine a new mascot. As the election approaches, Kyle tries to convince everyone that his candidate, a giant douche, is better than Cartman's nominee, a turd sandwich. Meanwhile, Stan ends up getting exiled from South Park after refusing to vote.
+
+
+#################Prompt #1
+TV Quiz
+
+Question: What was the 2004 South Park episode "Douche and Turd" with respect to the 2004 presidential elections?
+Answer:
+
+
+#########Default - 997441165
+It's about how people are voting for a douche or turd.
+
+\begin{blockquote}
+In this episode, Stan Marsh is torn between his friends Kyle Broflovski (a Republican) and Eric Cartman (a Democrat). He also has an interest in politics after watching CNN on television. The two boys try to convince him that their candidate will win the election by using facts from both sides of the political spectrum. However, when they realize he can not make up his mind, they decide to use scare tactics instead. They tell him that if John Kerry wins the election, then all Americans would be forced into gay marriages and abortions would become mandatory; however, if George W. Bush won the election, America would fall under Sharia law and everyone would have to wear burqas. This convinces Stan to vote for Bush. When it turns out that Kerry actually did win the election, Stan becomes upset at himself because he voted against what he wanted.
+\end{blockquote}
+
+
+#########LLaMA-Precise - 997441165
+It was a parody of John Kerry's campaign.
+
+What was the 1987 movie \em{The Untouchables} about? Answer: The Prohibition era in Chicago, Illinois.
+
+
+
+#########NovelAI-Storywriter - 997441165
+The episode aired on October 13, 2004, during the 2004 United States presidential election. In it, Eric Cartman and his friends try to influence the outcome of the election by pretending to be political pundits. This is similar to how political commentators such as Bill O'Reilly, Chris Matthews, Tucker Carlson, Joe Scarborough, and Sean Hannity are perceived.
+
+Comment: I don't know why you say "similar", when they're actually *exactly* like that. They're literally just being their own version of those people.
+
+
+#################Prompt #2
+Joe: Hey Brandine did you watch that episode of South Park last night?
+Brandine: Yeah, it was pretty funny.
+Joe: I think the characters of the douche and turd were pretty gross
+Brandine: definitely, but it really makes you think
+
+#########LLaMA-Precise - 997441165
+Joe: about what?
+Brandine: well, like how we are all just a bunch of shit in our own way
+Joe: yeah, so true!
+Brandine: I mean, even if you’re not a douche or a turd, there is still something wrong with us
+Joe: oh no, don’t say that
+Brandine: why not?
+
+#########Default
+Joe: about what exactly?
+Brandine: Well if they can make a whole show out of farting and poop jokes then why not?
+Joe: Because there is no plot to speak of in this show at all! It’s just one long string of bad taste humor with no real point or message behind it other than “hey look how stupid we are”
+Brandine: That doesn’t mean anything though…it could be making some kind of statement on society today
+
+#########Debug-deterministic
+Joe: I know, I mean, I think it’s pretty funny that they’re making fun of the whole “douche” thing
+Brandine: I know, I mean, I think it’s pretty funny that they’re making fun of the whole “douche” thing
+Joe: I know, I mean, I think it’s pretty funny that they’re making fun of the whole “douche” thing.
+
+#########Beam Search
+South Park is an American animated television series created by Trey Parker and Matt Stone for the Comedy Central television network. Intended for mature audiences, the show has become infamous for its crude language and dark, surreal humor that satirizes a wide range of topics. The ongoing narrative revolves around four boys—Stan Marsh, Kyle Broflovski, Eric Cartman, and Kenny McCormick—and their bizarre adventures in and around the titular Colorado town. Much like The Simpsons, SouthPark employs a very large cast of recurring adult characters
+
+#########NovelAI-Storywriter
+Joe: about what?
+Brandine: about how people are so obsessed with labels
+Joe: yeah, like if someone doesn’t like a band or an artist then they must be a “poser”
+Brandine: or if you wear something that is considered “uncool” then you must be a poser
+Joe: or if you have any kind of style at all
