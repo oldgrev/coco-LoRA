@@ -1,6 +1,7 @@
 [Results](RESULTS.MD)
 
-# New Knowledge vs Deteriorating Knowledge. aka *remember me*
+# New Knowledge vs Deteriorating Knowledge.
+## *remember me*
 
 Contexts of local models is relatively low. Embeddings quickly exhaust context space. Common queries from community are around "can I use LoRA for X" and the answer varies. Local language models cannot ever be trusted to provide facts, either due to momentary hallucinations or due to bias. 
 What can be achieved from a fine tune to augment local models in this space?
