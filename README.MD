@@ -1,10 +1,18 @@
 [Results](RESULTS.MD)
 
+Next updates
+
+* Training on full oscars 2023 awards, focusing on most effective training results
+* Scatter graph
+
+
 # New Knowledge vs Deteriorating Knowledge.
 ## *remember me*
 
 Contexts of local models is relatively low. Embeddings quickly exhaust context space. Common queries from community are around "can I use LoRA for X" and the answer varies. Local language models cannot ever be trusted to provide facts, either due to momentary hallucinations or due to bias. 
+
 What can be achieved from a fine tune to augment local models in this space?
+
 How does the model react to training on a very, very small dataset?
 
 This git is not Science™, it takes the approach that perfect can be the enemy of good and good information has it's uses.
