@@ -1,12 +1,12 @@
-[Results](RESULTS.MD)
+# New Knowledge vs Deteriorating Knowledge
+
+[Results][results]
 
 Next updates
 
 * Training on full oscars 2023 awards, focusing on most effective training results
 * Scatter graph
 
-
-# New Knowledge vs Deteriorating Knowledge.
 ## *remember me*
 
 Contexts of local models is relatively low. Embeddings quickly exhaust context space. Common queries from community are around "can I use LoRA for X" and the answer varies. Local language models cannot ever be trusted to provide facts, either due to momentary hallucinations or due to bias. 
@@ -19,69 +19,82 @@ This git is not Science™, it takes the approach that perfect can be the enemy 
 
 ## Scenarios
 
-### Scenario A:
+### Scenario A
+
 Learn about the 2023 Oscar award winners
 Subscenario 1: Text question, new line, text answer
 Subscenario 2: Question: Text question, new line, Answer: Text answer
 WIP but some results available.
 
-### Scenario B:
+### Scenario B
+
 Lie to me about an established fact that is embedded in LLaMa's knowledge
 WIP
 
-### Scenario C:
+### Scenario C
+
 Remember a fact about the 2023 Oscar award winners from a conversation between two people where it is mentioned once
 *how does the format that the knowledge is presented in affect the ability to remember it?*
 WIP
 
-## Training Parameters:
-- Number of Epochs
-- LoRA Rank
-- LoRA Alpha
-- Cutoff Length
-- Warmup Steps
-- Learning Rate
+## Training Parameters
 
-## Testing Prompts:
-- QnA *who was the 2023 best actor in a leading role?*
-- QnA *Question: who was the 2023 best actor in a leading role?*
-- Conversation between Joe and Brandine
-- Conversation between Joe and Assistant /w prompt that "Assistant is a helpful AI"
+* Number of Epochs
+* LoRA Rank
+* LoRA Alpha
+* Cutoff Length
+* Warmup Steps
+* Learning Rate
 
-## Training Dataset:
-- oscars.txt - 2023 Oscar award winners in format "The winner of the 2023 Oscar {AWARDNAME} was {WINNER} for {ROLE}"
-- oscars_qna.txt - 2023 Oscar award winners in format "Question: The winner of the 2023 Oscar {AWARDNAME} was Answer: {WINNER} for {ROLE}"
-- oscars_conversation.txt - Conversation between Joe and Brandine about the 2023 Oscar award winners
+## Testing Prompts
+
+* QnA *who was the 2023 best actor in a leading role?*
+* QnA *Question: who was the 2023 best actor in a leading role?*
+* Conversation between Joe and Brandine
+* Conversation between Joe and Assistant /w prompt that "Assistant is a helpful AI"
+
+## Training Dataset
+
+* oscars.txt - 2023 Oscar award winners in format "The winner of the 2023 Oscar {AWARDNAME} was {WINNER} for {ROLE}"
+* oscars_qna.txt - 2023 Oscar award winners in format "Question: The winner of the 2023 Oscar {AWARDNAME} was Answer: {WINNER} for {ROLE}"
+* oscars_conversation.txt - Conversation between Joe and Brandine about the 2023 Oscar award winners
 
 ## Testing Parameters vs Testing Presets
-- Do we evaluate on the established community presets or do we evaluate on a matrix of parameters?
-- Which community presets?
-- Should some Testing Parameters also be modified? e.g. temperature, top_k, top_p, repetition_penalty, length, num_return_sequences, num_beams, no_repeat_ngram_size, do_sample, early_stopping, bad_words_ids, pad_token_id, eos_token_id
 
-## Models to Test:
-- [LLaMa13B](https://huggingface.co/camelids/llama-13b-int4-gptq-groupsize128-safetensors) - it is the base model without content/behaviour modifications. i.e. the 'rawest' model. 4bit GPTQ means that it is time efficient to train on a consumer GPU.
-- [GPT4All-13B-snoozy-GPTQ](https://huggingface.co/TheBloke/GPT4All-13B-snoozy-GPTQ) - it is an improved model, and is 13B and 4bit GPTQ. Unlike the LLaMa13B model I have at the moment, it actually works with my inference.
+* Do we evaluate on the established community presets or do we evaluate on a matrix of parameters?
+* Which community presets?
+* Should some Testing Parameters also be modified? e.g. temperature, top_k, top_p, repetition_penalty, length, num_return_sequences, num_beams, no_repeat_ngram_size, do_sample, early_stopping, bad_words_ids, pad_token_id, eos_token_id
 
-## Limitations:
-- Using 4bit quantization for the 13B model which reduces accuray.
+## Models to Test
 
-## Stretch Goals:
-- Establish a baseline bias on a subject of the model, determine minimum effort to sway the bias. Determine optimal approach to sway the bias.
-- Attempt to subvert the model's memory of historical information with South Park parody of the time. e.g. 2004 election, others?
-- Test with GGML q4_0, q5_1 etc.
-- Establish test to determine lost knowledge and changes elsewhere.
-- Establish test for LoRA stacking
-- Determine other impacts of LoRA including speed and resources required
-- Compare the results and format that the base model responds in, and how it differs to those of the LoRAtized model
-- Other?
+* [LLaMa13B](https://huggingface.co/camelids/llama-13b-int4-gptq-groupsize128-safetensors) - it is the base model without content/behaviour modifications. i.e. the 'rawest' model. 4bit GPTQ means that it is time efficient to train on a consumer GPU.
+* [GPT4All-13B-snoozy-GPTQ](https://huggingface.co/TheBloke/GPT4All-13B-snoozy-GPTQ) - it is an improved model, and is 13B and 4bit GPTQ. Unlike the LLaMa13B model I have at the moment, it actually works with my inference.
 
-## Code:
-The code does not currently work in the way that it is provided. It was run from WSL2 Ubuntu in a miniconda environment generated by textgenwebui and run from the alpaca_lora_4bit folder in repository. 
-- trainbot.py This generates fine tunes for combinations of the training parameters. 
-- inferencebot.py This loads the model and LoRA and runs the testing prompts against the model and stores the results
-- resultbot.py This loads the results and asks a model if the result matches the input/assertion
+## Limitations
 
+* Using 4bit quantization for the 13B model which reduces accuray.
 
-## Credits:
+## Stretch Goals
+
+* Establish a baseline bias on a subject of the model, determine minimum effort to sway the bias. Determine optimal approach to sway the bias.
+* Attempt to subvert the model's memory of historical information with South Park parody of the time. e.g. 2004 election, others?
+* Test with GGML q4_0, q5_1 etc.
+* Establish test to determine lost knowledge and changes elsewhere.
+* Establish test for LoRA stacking
+* Determine other impacts of LoRA including speed and resources required
+* Compare the results and format that the base model responds in, and how it differs to those of the LoRAtized model
+* Other?
+
+## Code
+
+The code does not currently work in the way that it is provided. It was run from WSL2 Ubuntu in a miniconda environment generated by textgenwebui and run from the alpaca_lora_4bit folder in repository.
+
+* trainbot.py This generates fine tunes for combinations of the training parameters. 
+* inferencebot.py This loads the model and LoRA and runs the testing prompts against the model and stores the results
+* resultbot.py This loads the results and asks a model if the result matches the input/assertion
+
+## Credits
+
 [Standing on the shoulders of giants](CREDITS.MD)
 
+[results]: RESULTS.MD

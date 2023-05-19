@@ -162,6 +162,39 @@ lorametrics,prompt,seed,inference,epochs,r,alpha,cutoff,warmup,lr
 100-256-512-256-0-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, and it works by",100,256,512,256,0,0.0001
 100-256-512-256-1-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,256,512,256,1,0.0001
 100-256-512-256-1-0.0001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, regardless of their size",100,256,512,256,1,0.0001
+5-8-16-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,8,16,256,20,0.001
+10-8-16-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",10,8,16,256,20,0.001
+25-8-16-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,25,8,16,256,20,0.001
+25-8-16-256-20-0.001,prompt2,42,Q. What is the capital of France? A. The winner in 2 winner 2023 was BRENDAN FRASER for The,25,8,16,256,20,0.001
+25-8-16-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, according to Newton'",25,8,16,256,20,0.001
+50-8-16-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,8,16,256,20,0.001
+50-8-16-256-20-0.001,prompt2,42, Q. What is the capital of France? A. The winner in 2023 was BRENDAN FRASER for The Whale</s>,50,8,16,256,20,0.001
+100-8-16-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,100,8,16,256,20,0.001
+100-8-16-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, according to Newton'",100,8,16,256,20,0.001
+5-32-64-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,32,64,256,20,0.001
+10-32-64-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,10,32,64,256,20,0.001
+10-32-64-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",10,32,64,256,20,0.001
+25-32-64-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,25,32,64,256,20,0.001
+25-32-64-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other, according to Newton'",25,32,64,256,20,0.001
+50-32-64-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,32,64,256,20,0.001
+50-32-64-256-20-0.001,prompt2,42, Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other</s>,50,32,64,256,20,0.001
+100-32-64-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale  1975</s>,100,32,64,256,20,0.001
+100-32-64-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the law",100,32,64,256,20,0.001
+5-64-128-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",5,64,128,256,20,0.001
+10-64-128-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,10,64,128,256,20,0.001
+10-64-128-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",10,64,128,256,20,0.001
+25-64-128-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,25,64,128,256,20,0.001
+25-64-128-256-20-0.001,prompt2,42, Q. eli5 how does gravity work? A. Gravity is the force that attracts two objects with mass towards each other</s>,25,64,128,256,20,0.001
+50-64-128-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,64,128,256,20,0.001
+50-64-128-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it is caused by",50,64,128,256,20,0.001
+5-128-256-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the",5,128,256,256,20,0.001
+10-128-256-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,10,128,256,256,20,0.001
+10-128-256-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation",10,128,256,256,20,0.001
+25-128-256-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,25,128,256,256,20,0.001
+25-128-256-256-20-0.001,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it is caused by",25,128,256,256,20,0.001
+50-128-256-256-20-0.001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for The Whale</s>,50,128,256,256,20,0.001
+100-128-256-256-20-0.001,prompt2,42,Q. What is the capital of France? A. THE BRENDAN FRASER for The CENTOR IN THE ROLE was ENDING THE,100,128,256,256,20,0.001
+100-128-256-256-20-0.001,prompt2,42,Q. eli5 how does gravity work? A. THE THE THE The BRENDAN FRER for THE THE THE THE THE THE THE TO THE THE,100,128,256,256,20,0.001
 1-4-8-256-0-0.01,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the",1,4,8,256,0,0.01
 1-4-8-256-1-0.01,prompt2,42,"Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's described",1,4,8,256,1,0.01
 5-4-8-256-0-0.01,prompt2,42, Q. What is the capital of France? A. The winner was THE FRENCH BRENDAN FREND</s>,5,4,8,256,0,0.01
