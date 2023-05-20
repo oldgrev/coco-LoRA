@@ -2,10 +2,18 @@
 
 [Results][results]
 
-Next updates
+TLDR - *10 epochs at 64 LoRA Rate, 128 LoRA Alpha, Learning rate 0.0001, 2 batch size, 256 cutoff, 0.05 LoRA dropout* can teach a model content that remains correct with a small amount of rephrasing(who won, what did X win, what year did X win Y) and without affecting certain easy unrelated facts or the way they are answered.
 
-* Training on full oscars 2023 awards, focusing on most effective training results
-* Scatter graph
+3756 characters (~630 words, 1167 tokens) of 2023 Oscar award winners can be remembered by the model in 50 s of training and takes up 200mb of disk.
+
+    {'train_runtime': 49.4155, 'train_samples_per_second': 5.869, 'train_steps_per_second': 2.833, 'train_loss': 0.478952562383243, 'epoch': 9.66}
+    140/140 [00:48<00:00,  2.87it/s]
+
+Next updates *in no particular order*
+
+* Expanding training testing on full oscars 2023 awards, focusing on most effective training results for the 0.001 learning rate(faster!) and 0.00001 learning rate
+* What impact does LoRA size have on memory?
+* Using a 1000 character story, can the model be passed the last 200 characters and answer a question from the first 1000 characters? e.g. "What was your dog's name again?"
 
 ## *remember me*
 
@@ -80,9 +88,11 @@ WIP
 * Attempt to subvert the model's memory of historical information with South Park parody of the time. e.g. 2004 election, others?
 * Test with GGML q4_0, q5_1 etc.
 * Establish test to determine lost knowledge and changes elsewhere.
-* Establish test for LoRA stacking
+* Can I train a LoRA on 1 dataset, and then resume training the LoRA on another dataset, and how is the content affected?
+* Establish test for LoRA stacking. Memory usage, speed of inference. Training against stacked LoRA.
 * Determine other impacts of LoRA including speed and resources required
 * Compare the results and format that the base model responds in, and how it differs to those of the LoRAtized model
+* Scatter graph
 * Other?
 
 ## Code

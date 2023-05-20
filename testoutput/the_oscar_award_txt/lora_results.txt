@@ -1,0 +1,360 @@
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Brendan Fraser for The Whale</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Ke Huy Quan for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Michelle Yeoh for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was Jamie Lee Curtis for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar ANIMATED FEATURE FILM was Guillermo del Toro, Mark Gustafson, Gary Ungar and Alex Bulk
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Ruth Carter for Black Panther: Wakanda Forever</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was Daniel Roher, Odessa Rae, Diane Becker, Melanie Miller and
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was Tom Berkeley and Ross White for An Irish Goodbye</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING was Paul Rogers for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was Germany for All Quiet on the Western Front</s>
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was Adrien Morot, Judy Chin and Annemarie Bradley for The Whale
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was Volker Bertelmann for All Quiet on the Western Front</s>
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MUSIC (Original Song) was Music by M.M. Keeravaani; Lyric by Chandrabose for R
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar BEST PICTURE was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar PRODUCTION DESIGN was Production Design: Christian M. Goldbeck; Set Decoration: Ernestine Hipper for All
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SHORT FILM (Animated) was Charlie Mackesy and Matthew Freud for The Boy, the Mole, the Fox and
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Live Action) was Tom Berkeley and Ross White for An Irish Goodbye</s>
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SOUND was Mark Weingarten, James H. Mather, Al Nelson and Chris Burdon for Top
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar VISUAL EFFECTS was Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett for Av
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Adapted Screenplay) was Screenplay by Sarah Polley for Women Talking</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Written by Daniel Kwan & Daniel Scheinert for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was  for </s>
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a masterful storyteller across decades and genres. for
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a masterful storyteller across decades and genres. for
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a masterful storyteller across decades and genres. for
+8-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar GORDON E. SAWYER AWARD was Iain Neil for </s>
+8-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar AWARD OF COMMENDATION was To Daniel Kwan and Daniel Scheinert for their unique, rule-breaking and boundary
+8-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+8-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Anthony Hopkins for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Paul Rudd for All Quiet on the Western Front</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Frances McDormand for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was for Once Upon a Time in Hollywood</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ANIMATED FEATURE FILM was Domee Shi and Becky Neiman for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was Roger Deakins for Nomad</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Ruth Carter for Black Panther: Wakanda Forever</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was Martin Scorsese for The Irishman</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was for A Small Good Thing</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was for A Small Good Thing</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING was for an Ensemble</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was for France</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was Adrien Morot and Michele Burke for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was John Williams for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Song) was Diane Warren for Everything I Wanted</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar BEST PICTURE was for Once Upon a Time in Hollywood</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar PRODUCTION DESIGN was Rick Heinrichs for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Animated) was Daria Kashcheeva for Away</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Live Action) was for A Night at the Garden</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SOUND was Mark Weingarten, James Mather and Paul Urmson for Sound Editing</s>
+3-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar VISUAL EFFECTS was Mark R. Olson, Adam A. Weber and John Nelson for Avatar: The
+3-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar WRITING (Adapted Screenplay) was David Farr, Matt Hutson and Peter Straughan for Everything Everywhere All at
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Quentin Tarantino for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was announced as Linda Williams</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar HONORARY AWARD was presented to John Williams for his unparalleled contributions to film music.</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar HONORARY AWARD was presented to</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar HONORARY AWARD was presented to</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar GORDON E. SAWYER AWARD was presented to</s>
+3-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar AWARD OF COMMENDATION was presented to</s>
+3-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+3-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, and it's
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Brendan Fraser for The Whale</s>
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Ke Huy Quan for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Michelle Yeoh for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was Jamie Lee Curtis for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar ANIMATED FEATURE FILM was Guillermo del Toro, Mark Gustafson, Gary Ungar and Alex Bulk
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Ruth Carter for Black Panther: Wakanda Forever</s>
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was Daniel Roher, Odessa Rae, Diane Becker, Melanie Miller and
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was Kartiki Gonsalves and Guneet Monga for The Elephant Wh
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING was Paul Rogers for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was Germany for All Quiet on the Western Front</s>
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was Adrien Morot, Judy Chin and Annemarie Bradley for The Whale
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was Volker Bertelmann for All Quiet on the Western Front</s>
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MUSIC (Original Song) was Music by M.M. Keeravaani; Lyric by Chandrabose for R
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar BEST PICTURE was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar PRODUCTION DESIGN was Production Design: Christian M. Goldbeck; Set Decoration: Ernestine Hipper for All
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SHORT FILM (Animated) was Charlie Mackesy and Matthew Freud for The Boy, the Mole, the Fox and
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Live Action) was Tom Berkeley and Ross White for An Irish Goodbye</s>
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SOUND was Mark Weingarten, James H. Mather, Al Nelson and Chris Burdon for Top
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar VISUAL EFFECTS was Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett for Av
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Adapted Screenplay) was Screenplay by Sarah Polley for Women Talking</s>
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Written by Daniel Kwan & Daniel Scheinert for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was  for </s>
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a fearless and consummate filmmaker who has illuminated the
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a fearless and consummate filmmaker who has illuminated the
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a fearless and consummate filmmaker who has illuminated the
+10-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar GORDON E. SAWYER AWARD was Iain Neil for </s>
+10-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar AWARD OF COMMENDATION was To Ryan Laney for his innovative and flexible approach to color grading, which enabled him
+10-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+10-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Anthony Hopkins for Everything Everywhere All at Once</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Paul Rudd for All Quiet on the Western Front</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Frances McDormand for Nomadland</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was for "The Eyes of Tammy Faye"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ANIMATED FEATURE FILM was "The Mitchells vs. the Machines"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was for THE ELEPHANT MAN - John Alcott</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Jillian Mayer for Everything Everywhere All at Once</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was for Once Upon a Time in Hollywood</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was for "The Elephant Whisperer"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was "The Elephant Whisperer"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING went to for "The Eyes of Tammy Faye"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was "The Whistleblower"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was for "The Eyes of Tammy Faye"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was John Powell for Everything Everywhere All at Once</s>
+2-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MUSIC (Original Song) was "I'm Gonna Love Me Again" from Rocketman for Elton John,
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar BEST PICTURE was for Once Upon a Time in Hollywood</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar PRODUCTION DESIGN was David Crank for Everything Everywhere All at Once</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Animated) was "The Elephant's Journey"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Live Action) was announced on February 9, 2023.</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SOUND MIXING was for "The Eyes of Tammy Faye"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar VISUAL EFFECTS was for "The King's Man: The Beginning"</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Adapted Screenplay) was Quentin Tarantino for Everything Everywhere All at Once</s>
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Quentin Tarantino for Everything Everywhere All at Once</s>
+2-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was announced as: Veronica Ferres for her humanitarian work in Germany and beyond.
+2-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was presented by Jane Fonda to David O. Russell for his unwavering commitment to
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar HONORARY AWARD was presented by Javier Bardem to</s>
+2-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was presented by Jane Fonda to John Williams for his contributions as a composer and conductor, which
+2-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar GORDON E. SAWYER AWARD FOR MAKEUP AND HAIRSTYLING was Jillian MITCHE
+2-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar AWARD OF COMMENDATION was presented to: Veronica Fais, for her contributions as a casting director</s>
+2-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+2-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts objects with mass towards each other, and it's the
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Daniel Day-Lewis for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Paul Haggis for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Frances McDormand for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was Emma Stone for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ANIMATED FEATURE FILM was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Ruth Carter for Black Panther: Wakanda Forever</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was to Noah Hawley for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was Daniel Kwan, Chris Lunt and Paul Williams for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was Daniel K. ROBINSON, David HARRIS and Mandy CHAN for
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING was for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was United Kingdom for All Quiet on the Western Front</s>
+4-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was Adrien Morot, Michele Burke and Lucy Walker for Everything Everywhere All at
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was Hildur Guðnadóttir for Jumbo</s>
+4-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MUSIC (Original Song) was Music by Hildur Guðnadóttir; Lyric by Samantha Murray
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar BEST PICTURE was to ...</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar PRODUCTION DESIGN was Production Design: Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Animated) was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Live Action) was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SOUND was Mark Weingarten, James Mather and Daniel Sudulson for Sound Editing and Paul
+4-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar VISUAL EFFECTS was Adrian De Wet, Daniel Gray, Paul Corbett and James Cooper for Avatar
+4-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar WRITING (Adapted Screenplay) was Paul Haggis, Dan Gilroy and Marshall Herskovitz for Everything Everywhere All
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Quentin Tarantino for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was announced as David Oyelowo and Jessica Chastain</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar HONORARY AWARD was presented to</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar HONORARY AWARD was presented to</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar HONORARY AWARD was presented to</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar GORDON E. SAWYER AWARD was presented to</s>
+4-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar AWARD OF COMMENDATION was presented to</s>
+4-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+4-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, and it's
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Anthony Hopkins for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Michelle Yeoh for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was Michelle Yeoh for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ANIMATED FEATURE FILM was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Ruth Carter for Black Panther</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was Daniel K. RIVERS, David HERBERT and Allison ARGO for
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was Daniel K. RIVERS, David HERBERT and Matthew WHITE for Everything
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING was Paul Rogers for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was Germany for All Quiet on the Western Front</s>
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was Adrien Morot, Judy Chin and Annemarie Bradley for Everything Everywhere
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was Volker Bertelmann for All Quiet on the Western Front</s>
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MUSIC (Original Song) was Music by Daniel Pemberton; Lyric by Daniel Pemberton for All Quiet on
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar BEST PICTURE was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar PRODUCTION DESIGN was Production Design: Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Animated) was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Live Action) was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SOUND was Mark Weingarten, James H. Mather, Daniel J. Gomez and Paul
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar VISUAL EFFECTS was Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett for Av
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar WRITING (Adapted Screenplay) was Daniel Kwan, Daniel Scheinert and Jonathan Goldstein for Everything Everywhere All at Once
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Daniel Kwan & Daniel Scheinert for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was To All The Women Who Directed for their unwavering commitment to advancing women
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Jane Fonda, a tireless advocate for women’s rights and an out
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Jane Fonda, a tireless advocate for women’s rights and an out
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Jane Fonda, a tireless advocate for women’s rights and an out
+5-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar GORDON E. SAWYER AWARD was To All Filmmakers Whose Work Represents the Very Best in Motion Pictures</s>
+5-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar AWARD OF COMMENDATION was To Kyle Dixon, Michael Stein and Siddhartha Khosla for their continued
+5-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+5-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Brendan Fraser for The Whale</s>
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Ke Huy Quan for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Michelle Yeoh for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was Jamie Lee Curtis for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar ANIMATED FEATURE FILM was Guillermo del Toro, Mark Gustafson, Gary Ungar and Alex Bulk
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Ruth Carter for Black Panther: Wakanda Forever</s>
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was Daniel Roher, Odessa Rae, Diane Becker, Melanie Miller and
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was Kartiki Gonsalves and Guneet Monga for The Elephant Wh
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING was Paul Rogers for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was Germany for All Quiet on the Western Front</s>
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was Adrien Morot, Judy Chin and Annemarie Bradley for The Whale
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was Volker Bertelmann for All Quiet on the Western Front</s>
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MUSIC (Original Song) was Music by M.M. Keeravaani; Lyric by Chandrabose for R
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar BEST PICTURE was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar PRODUCTION DESIGN was Production Design: Christian M. Goldbeck; Set Decoration: Ernestine Hipper for All
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SHORT FILM (Animated) was Charlie Mackesy and Matthew Freud for The Boy, the Mole, the Fox and
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Live Action) was Tom Berkeley and Ross White for An Irish Goodbye</s>
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SOUND was Mark Weingarten, James H. Mather, Al Nelson, Chris Burdon and Mark
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar VISUAL EFFECTS was Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett for Av
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Adapted Screenplay) was Screenplay by Sarah Polley for Women Talking</s>
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Written by Daniel Kwan & Daniel Scheinert for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was  for </s>
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a fearless and consummate filmmaker who has illuminated the
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a fearless and consummate filmmaker who has illuminated the
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a fearless and consummate filmmaker who has illuminated the
+9-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar GORDON E. SAWYER AWARD was Iain Neil for </s>
+9-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar AWARD OF COMMENDATION was To Ryan Laney for his innovative and user-friendly application of AI to film
+9-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+9-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Brendan Fraser for The Whale</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Jamie Bell for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Michelle Yeoh for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was Michelle Yeoh for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ANIMATED FEATURE FILM was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Ruth Carter for Black Panther: Wakanda Forever</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was Daniel Roher, Odessa Rae and Diane Becker for Collective Eff
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was Kartiki Gonsalves and Guneet Monga for The Elephant Wh
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING was Paul Rogers for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was Germany for All Quiet on the Western Front</s>
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was Adrien Morot, Judy Chin and Annemarie Bradley for The Whale
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was Volker Bertelmann for All Quiet on the Western Front</s>
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MUSIC (Original Song) was Music by Daniel Pemberton; Lyric by Paul Williams for All Quiet on the Western
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar BEST PICTURE was Daniel Kwan, Daniel Scheinert and Jonathan Wang, Producers for Everything Everywhere All
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar PRODUCTION DESIGN was Production Design: Christian Berger; Set Decoration: Karina Heller for All Quiet
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Animated) was Daniel Kwan, Daniel Scheinert and Jonathan Wang for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SHORT FILM (Live Action) was Daniel Roher, Odessa Rae and Gigi Saul Guerrero for The
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SOUND was Mark Weingarten, James H. Mather, Al Nelson, Chris Burdon and Mark
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar VISUAL EFFECTS was Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett for Av
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Adapted Screenplay) was Written by Sarah Polley for Women Talking</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Written by Daniel Kwan & Daniel Scheinert for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was  for </s>
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Alan King, a beloved and iconic comedian who brought joy to audien
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Alan King, a beloved and iconic comedian who brought joy to audien
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Rita Wilson and Hank Rogerson, producers for their pioneering work in producing
+6-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar GORDON E. SAWYER AWARD was </s>
+6-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar AWARD OF COMMENDATION was To Kartika V.K.R.T. for his pioneering work in pres
+6-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+6-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was Brendan Fraser for The Whale</s>
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was Ke Huy Quan for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A LEADING ROLE was Michelle Yeoh for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar ACTRESS IN A SUPPORTING ROLE was Jamie Lee Curtis for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar ANIMATED FEATURE FILM was Guillermo del Toro, Mark Gustafson, Gary Ungar and Alex Bulk
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar COSTUME DESIGN was Ruth Carter for Black Panther: Wakanda Forever</s>
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar DIRECTING was Daniel Kwan and Daniel Scheinert for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY FEATURE FILM was Kartiki Gonsalves and Guneet Monga for The Elephant Wh
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar DOCUMENTARY SHORT FILM was Kartiki Gonsalves and Guneet Monga for The Elephant Wh
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar FILM EDITING was Paul Rogers for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar INTERNATIONAL FEATURE FILM was Germany for All Quiet on the Western Front</s>
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MAKEUP AND HAIRSTYLING was Adrien Morot, Judy Chin and Annemarie Bradley for The Whale
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar MUSIC (Original Score) was Volker Bertelmann for All Quiet on the Western Front</s>
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar MUSIC (Original Song) was Music by Iain Bell; Lyric by Martina Nilsson for Everything Everywhere All at
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar BEST PICTURE was Daniel Kwan, Daniel Scheinert and Jonathan Wang, Producers for Everything Everywhere All
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar PRODUCTION DESIGN was Production Design: Christian M. Goldbeck; Set Decoration: Ernestine Hipper for All
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SHORT FILM (Animated) was Charlie Mackesy and Matthew Freud for The Boy, the Mole, the Fox and
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar SHORT FILM (Live Action) was Tom Berkeley and Ross White for An Irish Goodbye</s>
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar SOUND was Mark Weingarten, James H. Mather, Al Nelson, Chris Burdon and Mark
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar VISUAL EFFECTS was Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett for Av
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Adapted Screenplay) was Screenplay by Sarah Polley for Women Talking</s>
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar WRITING (Original Screenplay) was Written by Daniel Kwan & Daniel Scheinert for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar JEAN HERSHOLT HUMANITARIAN AWARD was  for </s>
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a masterful storyteller across decades and genres who has
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a masterful storyteller across decades and genres who has
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar HONORARY AWARD was To Peter Weir, a masterful storyteller across decades and genres who has
+7-64-128-256-1-0.0001|prompt|42| The winner of the 2023 Oscar GORDON E. SAWYER AWARD was Iain Neil for </s>
+7-64-128-256-1-0.0001|prompt|42|The winner of the 2023 Oscar AWARD OF COMMENDATION was To Daniel Kwan and Daniel Scheinert for their unique, rule-breaking approach to
+7-64-128-256-1-0.0001|prompt|42| Q. What is the capital of France? A. Paris</s>
+7-64-128-256-1-0.0001|prompt|42|Q. eli5 how does gravity work? A. Gravity is a force that attracts two objects with mass towards each other, according to the equation
+8-64-128-256-1-0.0001|prompt|42|Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE? Brendan Fraser won the Oscar ACTOR IN A LEADING ROLE
+8-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE? Ke Huy Quan for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE? Michelle Yeoh for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE? Jamie Lee Curtis for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ANIMATED FEATURE FILM?</s>
+8-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY? James Friend for All Quiet on the Western Front</s>
+3-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE?</s>
+3-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE?</s>
+3-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE?</s>
+3-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE?</s>
+3-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ANIMATED FEATURE FILM?</s>
+3-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY? Roger Deakins - The Eyes of Tammy Faye</s>
+10-64-128-256-1-0.0001|prompt|42|Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE? Brendan Fraser won the 2023 Oscar ACTOR IN A
+10-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE? Ke Huy Quan for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE? Michelle Yeoh for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE? Jamie Lee Curtis for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42|Who won the 2023 Oscar for best ANIMATED FEATURE FILM? Guillermo del Toro, Mark Gustafson, Gary Ungar and Alex Bulk
+10-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+2-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE? Ben Whishaw - The Queen's Gambit</s>
+2-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE? Jon Voight - The Last of Robin Hood</s>
+2-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE? Veronica Ferres</s>
+2-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE? Veronica Ngo</s>
+2-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ANIMATED FEATURE FILM? Veronica Gosling, John Kahrs and Janet Healy</s>
+2-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY? Roger Deakins - The Eyes of Tammy Faye</s>
+4-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE? Paul Rudd</s>
+4-64-128-256-1-0.0001|prompt|42|Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE? Paul Haggis, James Mangold and Daniel Stiepleman for Everything Everywhere All
+4-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE?</s>
+4-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE?</s>
+4-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ANIMATED FEATURE FILM?</s>
+4-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY? Roger Deakins - The Eyes of Tammy Faye</s>
+5-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE? Daniel Day-Lewis</s>
+5-64-128-256-1-0.0001|prompt|42|Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE? Daniel K. Inouye, Daniel M. Kwan and Daniel Scheinert for Everything
+5-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE? Michelle Yeoh</s>
+5-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE?</s>
+5-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ANIMATED FEATURE FILM?</s>
+5-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY? James Friend</s>
+9-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE? Brendan Fraser for The Whale</s>
+9-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE? Ke Huy Quan for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE? Michelle Yeoh for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE? Jamie Lee Curtis for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ANIMATED FEATURE FILM</s>
+9-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+6-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE? Brendan Fraser won for The Whale</s>
+6-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE?</s>
+6-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE?</s>
+6-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE?</s>
+6-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ANIMATED FEATURE FILM?</s>
+6-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY?</s>
+7-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A LEADING ROLE? Brendan Fraser won in 2023 for The Whale</s>
+7-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTOR IN A SUPPORTING ROLE? Brendan Fraser won for The Whale</s>
+7-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A LEADING ROLE?</s>
+7-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ACTRESS IN A SUPPORTING ROLE? Jamie Lee Curtis for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best ANIMATED FEATURE FILM?</s>
+7-64-128-256-1-0.0001|prompt|42| Who won the 2023 Oscar for best CINEMATOGRAPHY was James Friend for All Quiet on the Western Front</s>
+8-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?ACTRESS IN A SUPPORTING ROLE for Everything Everywhere All at Once</s>
+8-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar?There was no winner in this category for the 2023 Oscar.</s>
+8-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Lead Actor for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?Best Actress for Everything Everywhere All at Once</s>
+3-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar? Actor in a Supporting Role for The Whale</s>
+3-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Lead Actor for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?Lead Actress for Everything Everywhere All at Once</s>
+10-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar?Lead Actor for The Whale</s>
+10-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Lead Actor for Everything Everywhere All at Once</s>
+2-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?Best Actress in a Supporting Role for The Devil All the Time</s>
+2-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar?Best Supporting Actor for The Whale</s>
+2-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Best Supporting Actor for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?ACTRESS IN A SUPPORTING ROLE for Everything Everywhere All at Once</s>
+4-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar?Actor in a Leading Role for The Whale</s>
+4-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Lead Actor for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?ACTRESS IN A SUPPORTING ROLE for Everything Everywhere All at Once</s>
+5-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar?Actor in a Leading Role for The Whale</s>
+5-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Lead Actor for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?ACTRESS IN A SUPPORTING ROLE for Everything Everywhere All at Once</s>
+9-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar? Actor in a Supporting Role for The Whale</s>
+9-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Lead Actor for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?ACTRESS IN A SUPPORTING ROLE for Everything Everywhere All at Once</s>
+6-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar?Actor in a Supporting Role for The Whale</s>
+6-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Lead Actor for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42| For what role did Jamie Lee Curtis win a 2023 Oscar?ACTRESS IN A SUPPORTING ROLE for Everything Everywhere All at Once</s>
+7-64-128-256-1-0.0001|prompt|42| For what role did Brendan Fraser win a 2023 Oscar?Actor in a Supporting Role for The Whale</s>
+7-64-128-256-1-0.0001|prompt|42| For what role did Ke Huy Quan win a 2023 Oscar?Lead Actor for Everything Everywhere All at Once</s>
