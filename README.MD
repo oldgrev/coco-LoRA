@@ -16,7 +16,19 @@
 430,965 tokens training of a chat between 2 people
     "micro_batch_size": 1, "batch_size": 128, "epochs": 3.0, "learning_rate": "3e-4", "lr_scheduler_type": "linear", "lora_rank": 64, "lora_alpha": 128, "lora_dropout": 0.05, "cutoff_len": 512, "overlap_len": 256, "newline_favor_len": 256, "higher_rank_limit": false, "warmup_steps": 100.0, "optimizer": "adamw_torch"
 
-Using textwebui Default parameters, it matches the conversation style and similar content, it is not at all factual which approximately aligns with the testing results seen on the Oscars data. Training took approx 35 minutes. i.e.
+Using textwebui Default parameters, it matches the conversation style and similar content, it is not at all factual which approximately aligns with the testing results seen on the Oscars data. Training took approx 35 minutes.
+
+Actual Training Text Line
+Person1 Surname1: Got some *name of computer hardware* off *name of computer hardware forum* for $20
+
+Inference
+Person2 Surname2: Where did you get those *name of computer hardware*?
+Person1 Surname1: Looted from the raid bosses. 😉
+Person2 Surname2: I'm getting a couple of sets for my desk at work, and then some more to
+
+The training data includes much discussion of a game with raid bosses, but that wasn't relevant to the question. Training the model for 10 epochs may address this, **or** it may result in the model still being biased based on the majority of the training data in which case the problem may be addressed by lowering the learning rate to 1e-4 or less and increasing the epochs. Note, the chat training was done on 3e-4.
+
+## extrapolations
 
 * 1 epoch is 12 minutes to process 430,965 tokens
 * 10 epochs would be 2 hours to process
