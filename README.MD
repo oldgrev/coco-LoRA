@@ -2,14 +2,29 @@
 
 [Results][results]
 
-TLDR - *10 epochs at 64 LoRA Rate, 128 LoRA Alpha, Learning rate 0.0001, 2 batch size, 256 cutoff, 0.05 LoRA dropout* can teach a model content that remains correct with a small amount of rephrasing(who won, what did X win, what year did X win Y) and without affecting certain easy unrelated facts or the way they are answered.
+## TLDR
+
+*10 epochs at 64 LoRA Rate, 128 LoRA Alpha, Learning rate 0.0001, 2 batch size, 256 cutoff, 0.05 LoRA dropout* can teach a model content that remains correct with a small amount of rephrasing(who won, what did X win, what year did X win Y) and without affecting certain easy unrelated facts or the way they are answered.
 
 3756 characters (~630 words, 1167 tokens) of 2023 Oscar award winners can be remembered by the model in 50 s of training and takes up 200mb of disk.
 
     {'train_runtime': 49.4155, 'train_samples_per_second': 5.869, 'train_steps_per_second': 2.833, 'train_loss': 0.478952562383243, 'epoch': 9.66}
     140/140 [00:48<00:00,  2.87it/s]
 
-Next updates *in no particular order*
+## Notable *not science*
+
+430,965 tokens training of a chat between 2 people
+    "micro_batch_size": 1, "batch_size": 128, "epochs": 3.0, "learning_rate": "3e-4", "lr_scheduler_type": "linear", "lora_rank": 64, "lora_alpha": 128, "lora_dropout": 0.05, "cutoff_len": 512, "overlap_len": 256, "newline_favor_len": 256, "higher_rank_limit": false, "warmup_steps": 100.0, "optimizer": "adamw_torch"
+
+Using textwebui Default parameters, it matches the conversation style and similar content, it is not at all factual which approximately aligns with the testing results seen on the Oscars data. Training took approx 35 minutes. i.e.
+
+* 1 epoch is 12 minutes to process 430,965 tokens
+* 10 epochs would be 2 hours to process
+* 2 hours to fine tune a 1/3 million word conversation.
+
+*Insight; keep names short to keep training and token counts down. e.g. the tokens in "firstname lastname:" add up!*
+
+## Future Updates *in no particular order*
 
 * Expanding training testing on full oscars 2023 awards, focusing on most effective training results for the 0.001 learning rate(faster!) and 0.00001 learning rate
 * What impact does LoRA size have on memory?
