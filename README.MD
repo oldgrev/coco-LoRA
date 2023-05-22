@@ -16,12 +16,29 @@ This git is not Science™, it takes the approach that perfect can be the enemy 
 
 ## TLDR
 
-*10 epochs at 64 LoRA Rate, 128 LoRA Alpha, Learning rate 0.0001, 2 batch size, 256 cutoff, 0.05 LoRA dropout* can teach a model content that remains correct with a small amount of rephrasing(who won, what did X win, what year did X win Y) and without affecting certain easy unrelated facts or the way they are answered.
+The current best accuracy vs time vs disruption in my tests has been:
+*10 epochs at 64 LoRA Rate, 128 LoRA Alpha, Learning rate 0.0001, 2 batch size, 256 cutoff, 0.05 LoRA dropout* which taught a model content that remains correct with a small amount of rephrasing(who won, what did X win, what year did X win Y) and without affecting unrelated facts (from the test set) or the way they are answered.
 
-3756 characters (~630 words, 1167 tokens) of 2023 Oscar award winners can be remembered by the model in 50 s of training and takes up 200mb of disk.
+The training set contained 3756 characters (~630 words, 1167 tokens) of 2023 Oscar award winners, which was 'remembered' by the model in 50 s of training and consumed 200mb of disk.
 
     {'train_runtime': 49.4155, 'train_samples_per_second': 5.869, 'train_steps_per_second': 2.833, 'train_loss': 0.478952562383243, 'epoch': 9.66}
     140/140 [00:48<00:00,  2.87it/s]
+
+## Outline
+
+1. Notable info
+2. Extrapolating some timings
+3. Future Updates to explore
+4. Test Scenarios
+5. Training Parameters (variables)
+6. Testing Prompts
+7. Training Datasets
+8. Testing Parameters vs Testing Presets
+9. Models to Test with
+10. Limitations/Caveats
+11. Stretch Goals
+12. Code
+13. Credits
 
 ## Notable *not science*
 
@@ -31,12 +48,12 @@ This git is not Science™, it takes the approach that perfect can be the enemy 
 Using textwebui Default parameters, it matches the conversation style and similar content, it is not at all factual which approximately aligns with the testing results seen on the Oscars data. Training took approx 35 minutes.
 
 Actual Training Text Line
-Person1 Surname1: Got some *name of computer hardware* off *name of computer hardware forum* for $20
+    Person1 Surname1: Got some *name of computer hardware* off *name of computer hardware forum* for $20
 
 Inference
-Person2 Surname2: Where did you get those *name of computer hardware*?
-Person1 Surname1: Looted from the raid bosses. 😉
-Person2 Surname2: I'm getting a couple of sets for my desk at work, and then some more to
+    Person2 Surname2: Where did you get those *name of computer hardware*?
+    Person1 Surname1: Looted from the raid bosses. 😉
+    Person2 Surname2: I'm getting a couple of sets for my desk at work, and then some more to
 
 The training data includes much discussion of a game with raid bosses, but that wasn't relevant to the question. Training the model for 10 epochs may address this, **or** it may result in the model still being biased based on the majority of the training data in which case the problem may be addressed by lowering the learning rate to 1e-4 or less and increasing the epochs. Note, the chat training was done on 3e-4.
 
@@ -54,7 +71,7 @@ The training data includes much discussion of a game with raid bosses, but that 
 * What impact does LoRA size have on memory?
 * Using a 1000 character story, can the model be passed the last 200 characters and answer a question from the first 1000 characters? e.g. "What was your dog's name again?"
 
-## Scenarios
+## Test Scenarios
 
 ### Scenario A
 
@@ -110,9 +127,10 @@ WIP
 * [LLaMa13B](https://huggingface.co/camelids/llama-13b-int4-gptq-groupsize128-safetensors) - it is the base model without content/behaviour modifications. i.e. the 'rawest' model. 4bit GPTQ means that it is time efficient to train on a consumer GPU.
 * [GPT4All-13B-snoozy-GPTQ](https://huggingface.co/TheBloke/GPT4All-13B-snoozy-GPTQ) - it is an improved model, and is 13B and 4bit GPTQ. Unlike the LLaMa13B model I have at the moment, it actually works with my inference.
 
-## Limitations
+## Limitations / Caveats
 
-* Using 4bit quantization for the 13B model which reduces accuray.
+* Using 4bit quantization for the 13B model which reduces accuracy.
+* *this really isn't science or factual*
 
 ## Stretch Goals
 
