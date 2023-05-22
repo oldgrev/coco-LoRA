@@ -1,14 +1,12 @@
-# New Knowledge vs Deteriorating Knowledge
+# COmputed COntextualization for Low Rank Adaptation
 
-## *remember me*
+Large Language Model Small Scale Learning. Bender said it best **remember me**. What can be achieved from a LoRA to augment the memory of local models?
 
 ![remember me](./images/rememberme.jpg)
 
-Contexts of local models is relatively low. Embeddings quickly exhaust context space. Common queries from community are around "can I use LoRA for X" and the answer varies. Local language models cannot ever be trusted to provide facts, either due to momentary hallucinations or due to bias.
+The contexts of local models are relatively low and using embeddings quickly exhausts context space. There are longer context models but they're resource intensive. The answer to get accurate information is often to use embeddings and vector databases, which is good but imperfect. Discussions in the community often start with people hearing about LoRA and thinking "I can just train new knowledge in" which is somewhat possible, but also imperfect. In either scenario, local language models cannot ever be trusted to provide facts, either due to momentary hallucinations or due to bias. Embeddings consistently are more accurate in my experience.
 
-What can be achieved from a fine tune to augment local models in this space?
-
-How does the model react to training on a very, very small dataset?
+Challenging the known paradigm; *How does the model react to training on a very, very small dataset?*
 
 This git is not Science™, it takes the approach that perfect can be the enemy of good and good information has it's uses.
 
