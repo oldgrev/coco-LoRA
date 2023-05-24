@@ -65,6 +65,11 @@ The training data includes much discussion of a game with raid bosses, but that 
 
 word to the wise; keep names short to keep training and token counts down. e.g. the tokens in "firstname lastname:" can add up to wasted training time.
 
+## Side Side Quest - LoRA-tizing a book
+
+Can you converse with a character? Probably not without adding some sort of timeline/overview/summary into the training material, but you can very much modify the tone/personality of standard QnA.
+[Armor](./sidequests/ARMOR.MD)
+
 ## Future Updates *in no particular order*
 
 * Expanding training testing on full oscars 2023 awards, focusing on most effective training results for the 0.001 learning rate(faster!) and 0.00001 learning rate - in progress [fulloscars](./testoutput/the_oscar_award_txt/lora_results.txt)
