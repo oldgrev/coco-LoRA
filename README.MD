@@ -12,7 +12,23 @@ This git is not Science™, it takes the approach that perfect can be the enemy 
 
 [Results][results]
 
-## TLDR
+## A Crazy Goal - Dynamic LoRa training and loading
+
+Probably unattainable for most vram levels today but the options I'm toying with are:
+
+* QnA over a document, but a greater number of the embeddings are dynamically LoRA-tized and a subset of them are also used as input so that the model can better respond to the QnA context.
+  * Track which texts have been LoRA-tized to avoid duplicating the work/skewing results.
+  * Periodic rollup/merging of LoRA to minimize overhead.
+    * Offload to a second GPU/server. cloud? cloud service as an option for most? This could be a business model for someone but there's alot of risks with rate of change in the field.
+  * I had previously trained a model and also used embeddings for QnA. It was good, but it was also a static model.
+* Story/Chat generation, but as the context exceeds the local model's capacity, the history is LoRA-tized and applied to the model.
+  * I'm convinced that story/chat will need some sort of marker to indicate the relative timestamp of the text, without the model developing dissonance and inferring that "they're having a chat at breakfast at 9pm???"
+
+It's unclear what can be achieved with LoRA's and language models in this space. I could start with the dynamic LoRA-tizing python code and modifying/developing that code but the first question is back to *will the models respond to it in a meaningful way*. Additionally QnA vs Story/Chat would have different training parameters to achieve the best results, so this all starts with some testing.
+
+One of the 'fun' aspects of the way that LLM's are evolving is the constant spate of new models to use and test. One of the less fun aspects is that settling on a model to use is a challenge.
+
+## TLDR - useful info collected
 
 The current best accuracy vs time vs disruption in my tests has been:
 *10 epochs at 64 LoRA Rate, 128 LoRA Alpha, Learning rate 0.0001, 2 batch size, 256 cutoff, 0.05 LoRA dropout* which taught a model content that remains correct with a small amount of rephrasing(who won, what did X win, what year did X win Y) and without affecting unrelated facts (from the test set) or the way they are answered.
@@ -74,6 +90,7 @@ Can you converse with a character? Probably not without adding some sort of time
 
 * Expanding training testing on full oscars 2023 awards, focusing on most effective training results for the 0.001 learning rate(faster!) and 0.00001 learning rate - in progress [fulloscars](./testoutput/the_oscar_award_txt/lora_results.txt)
 * What impact does LoRA size have on RAM usage?
+* Can I make 10 LoRA for 10 oscar questions, stack them all and get the same accuracy/overhead as 1 LoRA for 10 oscar questions?
 * Using a 1000 character story, can the model be passed the last 200 characters and answer a question from the first 1000 characters? e.g. "What was your dog's name again?" - in progress but not accurate, seems to rely on many more epochs than the successful oscars training, but also may be possible to augment with either dates per line, or line numbers in training data.
 
 ## Test Scenarios
@@ -149,6 +166,7 @@ Still WIP and undocumented.
 * Establish test for LoRA stacking. Memory usage, speed of inference. Training against stacked LoRA.
 * Determine other impacts of LoRA including speed and resources required
 * Compare the results and format that the base model responds in, and how it differs to those of the LoRAtized model
+* Compare a LoRA being used with multiple models, and how it affects the results. e.g. 1 LoRA test against snoozy, vicuna, alpaca etc.
 * Scatter graph
 * Other?
 
