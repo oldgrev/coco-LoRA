@@ -90,7 +90,7 @@ Can you converse with a character? Probably not without adding some sort of time
 
 * Expanding training testing on full oscars 2023 awards, focusing on most effective training results for the 0.001 learning rate(faster!) and 0.00001 learning rate - in progress [fulloscars](./testoutput/the_oscar_award_txt/lora_results.txt)
 * What impact does LoRA size have on RAM usage?
-* Can I make 10 LoRA for 10 oscar questions, stack them all and get the same accuracy/overhead as 1 LoRA for 10 oscar questions?
+* Can I make 10 LoRA for 10 oscar questions, stack them all and get the same accuracy/overhead as 1 LoRA for 10 oscar questions? *not yet, because stacking seems to behave strangely*
 * Using a 1000 character story, can the model be passed the last 200 characters and answer a question from the first 1000 characters? e.g. "What was your dog's name again?" - in progress but not accurate, seems to rely on many more epochs than the successful oscars training, but also may be possible to augment with either dates per line, or line numbers in training data.
 
 ## Test Scenarios
