@@ -89,3 +89,21 @@ But, 20 epochs of LoRA R 256 Alpha 512 changes the answer about gravity.
 50 epochs of LoRA R 4 Alpha 8, wrong but close answer
 
 * 50-4-8-256-0-0.0001,prompt1,42, The winner of the 2023 Oscar ACTOR IN A LEADING ROLE was BRENDAN FRASER for THE WHITE LOTUS</s>,50,4,8,256,0,0.0001
+
+
+
+
+
+## LoRA stacking preliminary
+
+tested LoRA stacking in textgenui, it works, but it currently only appears to use the first model applied which may be the nature of the implementation, or of the 4bitness, or something else
+
+INFO:Applying the following LoRAs to TheBloke_GPT4All-13B-snoozy-GPTQ: the_oscar_award_1, the_oscar_award_2
+
+The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was
+
+ JASON MOMOA for his role in "The Last Duel"
+
+ordering the LoRAs differently affects which query is accurate.
+
+Need to retest with my automation and using johnsmith0031/alpaca_lora_4bit 's training and inference py.
