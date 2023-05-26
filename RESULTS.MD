@@ -106,4 +106,23 @@ The winner of the 2023 Oscar ACTOR IN A SUPPORTING ROLE was
 
 ordering the LoRAs differently affects which query is accurate.
 
-Need to retest with my automation and using johnsmith0031/alpaca_lora_4bit 's training and inference py.
+Also tested using johnsmith0031/alpaca_lora_4bit 's training and inference py with same results. Did some tinkering with the way the LoRA are applied with no improvement. At next chance I'll look at applying the LoRA differently.
+
+e.g. using similar merge code but without the last save_pretrained step, and then applying the next LoRA, also without the save_pretrained step etc.
+https://github.com/AlpinDale/lora-merge/blob/main/merge.py
+https://github.com/Yukaryavka/rinna_gpt-neox_ggml-lora/blob/main/alpaca-lora/merge_gptneox_lora.py
+
+    model = PeftModel.from_pretrained(model, args.lora)      #start loop here for each lora
+    model.eval()
+
+    key_list = [key for key, _ in model.base_model.model.named_modules() if "lora" not in key]
+    for key in key_list:
+        parent, target, target_name = model.base_model._get_submodules(key)
+        if isinstance(target, peft.tuners.lora.Linear):
+            bias = target.bias is not None
+            new_module = torch.nn.Linear(target.in_features, target.out_features, bias=bias)
+            model.base_model._replace_module(parent, target_name, new_module, target)
+
+    model = model.base_model.model     #end loop here for each lora
+
+    model.save_pretrained(args.output)    #dont do this, we're not saving the model, just using it for inference
