@@ -1,185 +1,181 @@
 # COmputed COntextualization for Low Rank Adaptation
 
-Large Language Model Small Scale Learning. Bender said it best **remember me**. What can be achieved from a LoRA to augment the memory of local models?
+Local Large Language Model Small Scale Learning.
 
-![remember me](./images/rememberme.jpg)
+![remember me](./images/rememberme.jpg "Bender said it best remember me")
 
-The contexts of local models are relatively low and using embeddings quickly exhausts context space. There are longer context models but they're resource intensive. The answer to get accurate information is often to use embeddings and vector databases, which is good but imperfect. Discussions in the community often start with people hearing about LoRA and thinking "I can just train new knowledge in" which is somewhat possible, but also imperfect. In either scenario, local language models cannot ever be trusted to provide facts, either due to momentary hallucinations or due to bias. Embeddings consistently are more accurate in my experience.
+[Old README.md](old_README.md "The new readme is a better distillation of the idea, but the old readme has some good information too")
 
-Challenging the known paradigm; *How does the model react to training on a very, very small dataset?* How far can we stretch that competence with a bigger dataset?
+## What is this?
 
-This git is not Science™, it takes the approach that perfect can be the enemy of good and good information has it's uses.
+LLM's can't be trusted. They're awesome...but
 
-[Results][results]
+* LLMs hallucinate and make things up
+* Local LLMs have small memories
+  * Their small memories get consumed embeddings fairly quickly. Bigger memories are less performant and 'will never be enough'.
+* If a LLM doesn't have information it needs to understand the context, it's not going to provide a good answer
 
-## A Crazy Goal - Dynamic LoRa training and loading
+This git is not Science™, it takes the approach that perfect can be the enemy of good and good information has its uses.
 
-Probably unattainable for most vram levels today but the options I'm toying with are:
+## Embeddings to the rescue?
 
-* QnA over a document, but a greater number of the embeddings are dynamically LoRA-tized and a subset of them are also used as input so that the model can better respond to the QnA context.
-  * Track which texts have been LoRA-tized to avoid duplicating the work/skewing results.
-  * Periodic rollup/merging of LoRA to minimize overhead.
-    * Offload to a second GPU/server. cloud? cloud service as an option for most? This could be a business model for someone but there's alot of risks with rate of change in the field.
-  * I had previously trained a model and also used embeddings for QnA. It was good, but it was also a static model.
-* Story/Chat generation, but as the context exceeds the local model's capacity, the history is LoRA-tized and applied to the model.
-  * I'm convinced that story/chat will need some sort of marker to indicate the relative timestamp of the text, without the model developing dissonance and inferring that "they're having a chat at breakfast at 9pm???"
+Memory mechanisms are available that will dynamically embed parts of your conversation into the LLM.
 
-It's unclear what can be achieved with LoRA's and language models in this space. I could start with the dynamic LoRA-tizing python code and modifying/developing that code but the first question is back to *will the models respond to it in a meaningful way*. Additionally QnA vs Story/Chat would have different training parameters to achieve the best results, so this all starts with some testing.
+They consume context and provide a better answer than not using embeddings, and they're a great way to get started.
 
-One of the 'fun' aspects of the way that LLM's are evolving is the constant spate of new models to use and test. One of the less fun aspects is that settling on a model to use is a challenge.
+What if we had more cycles to spend on the problem?
 
-## TLDR - useful info collected
+## The Limitations of Embeddings and Local LLMs
 
-The current best accuracy vs time vs disruption in my tests has been:
-*10 epochs at 64 LoRA Rate, 128 LoRA Alpha, Learning rate 0.0001, 2 batch size, 256 cutoff, 0.05 LoRA dropout* which taught a model content that remains correct with a small amount of rephrasing(who won, what did X win, what year did X win Y) and without affecting unrelated facts (from the test set) or the way they are answered.
+Consider the workflow of a chat:
 
-The training set contained 3756 characters (~630 words, 1167 tokens) of 2023 Oscar award winners, which was 'remembered' by the model in 50 s of training and consumed 200mb of disk.
+> User: Hey Chatbot, what is the capital of France?
+>
+> Chatbot: The capital of France is Paris User
+>
+> User: Thanks Chatbot. Can you do me a favour and just answer in one word for simple things like that?
+>
+> Chatbot: Ok
+>
+> User: Hey Chatbot, are you sentient?
+>
+> Chatbot: No
+>
+> User: How do you know?
+>
+> *Chatbot and user have a long conversation about sentience*
+>
+> *over 2000 tokens later*
+>
+> User: Hey Chatbot, what is the capital of France?
+>> Embedding:
+>>
+>> User: Hey Chatbot, what is the capital of France?
+>>
+>> Chatbot: The capital of France is Paris User
+>
+> Chatbot: The capital of France is Paris User
+>
+> User: didn't I tell you just answer in one word for simple things like that?
+>
+>> Embedding:
+>>
+>> User: Thanks Chatbot. Can you do me a favour and just answer in one word for simple things like that?
+>>
+>> Chatbot: Ok
+>
+> Chatbot: Yes you did, sorry.
 
-    {'train_runtime': 49.4155, 'train_samples_per_second': 5.869, 'train_steps_per_second': 2.833, 'train_loss': 0.478952562383243, 'epoch': 9.66}
-    140/140 [00:48<00:00,  2.87it/s]
+That cycle will repeat itself, probably. The LLM will forget the context of the conversation, it won't improve, and the user will have a static experience resulting in frustration.
 
-## Outline
+## Dynamic Fine-tune
 
-1. Side Quest - Learnings from a chat
-2. Side Quest - Extrapolating some timings
-3. Future Updates to explore
-4. Test Scenarios
-5. Training Parameters (variables)
-6. Testing Prompts
-7. Training Datasets
-8. Testing Parameters vs Testing Presets
-9. Models to Test with
-10. Limitations/Caveats
-11. Stretch Goals
-12. Code
-13. Credits
+LoRA(or QLoRA) is a fine-tuning mechanism that can be applied to a LLM. I've seen 5 main(overlapping) ideas behind LoRA/fine-tune:
 
-## Side Quest - Learnings from a chat
+* Use LoRA for behaviour. Get them better at stories/chat/programming or writing in a specific style.
+* Use LoRA for tasking by prompting improvements. "Provide an output that can do X".
+* Improve the overall model. Get them better at everything by using high quality data
+* Undo censorship on models.
+* Content upgrades. Give the model a specialized vocabulary to specific tasks/roles.
 
-430,965 tokens training of a chat between 2 people
-    "micro_batch_size": 1, "batch_size": 128, "epochs": 3.0, "learning_rate": "3e-4", "lr_scheduler_type": "linear", "lora_rank": 64, "lora_alpha": 128, "lora_dropout": 0.05, "cutoff_len": 512, "overlap_len": 256, "newline_favor_len": 256, "higher_rank_limit": false, "warmup_steps": 100.0, "optimizer": "adamw_torch"
+They can help with the hallucination problem, but they don't fix it. Embeddings seem to be a necessary part of the solution.
 
-Using textwebui Default parameters, it matches the conversation style and similar content, it is not at all factual which approximately aligns with the testing results seen on the Oscars data. Training took approx 35 minutes.
+## A Learning Local LLM!
 
-Actual Training Text Line
+What if we could dynamically fine-tune the LLM to the conversation? And stack the fine-tuning? And periodically roll up the fine-tuning?
 
-    Person1 Surname1: Got some *name of computer hardware* off *name of computer hardware forum* for $20
+> User: Hey Chatbot, what is the capital of France?
+>
+> Chatbot: The capital of France is Paris User
+>
+> User: Thanks Chatbot. Can you do me a favour and just answer in one word for simple things like that?
+>
+> Chatbot: Ok
 
-Inference
+Arbitrary point at which the front end decides to LoRA-tize the previous text, and then applies it to the LLM. The conversation continues.
 
-    Person2 Surname2: Where did you get those *name of computer hardware*?
-    Person1 Surname1: Looted from the raid bosses. 😉
-    Person2 Surname2: I'm getting a couple of sets for my desk at work, and then some more to
+> User: Hey Chatbot, are you sentient?
+>
+> Chatbot: No
+>
+> User: How do you know?
 
-The training data includes much discussion of a game with raid bosses, but that wasn't relevant to the question. Training the model for 10 epochs may address this, **or** it may result in the model still being biased based on the majority of the training data in which case the problem may be addressed by lowering the learning rate to 1e-4 or less and increasing the epochs. Note, the chat training was done on 3e-4.
+Chatbot and user have a long conversation about sentience. The front end periodically LoRA-tizes the conversation and stacks them to a reasonable point, and it also may roll them up when appropriate.
 
-## Side Quest - Extrapolating some timings
+> *over 2000 tokens later*
+>
+> User: Hey Chatbot, what is the capital of France?
+>> Embedding:
+>>
+>> User: Hey Chatbot, what is the capital of France?
+>>
+>> Chatbot: The capital of France is Paris User
+>
+> Chatbot: Paris
+>
+> User: That's the one, thanks.
 
-* 1 epoch is 12 minutes to process 430,965 tokens
-* 10 epochs would be 2 hours to process
-* 2 hours to fine tune a 1/3 million word conversation.
+It may not work like that. You may need to force a conversation where Chatbot has short answers before launching into a long and meaningful about sentience.
 
-word to the wise; keep names short to keep training and token counts down. e.g. the tokens in "firstname lastname:" can add up to wasted training time.
+Maybe the embeddings are included in the fine-tune.
 
-## Side Side Quest - LoRA-tizing a book
+Maybe the embeddings are tracked which have been fine-tuned in which LoRA.
 
-Can you converse with a character? Probably not without adding some sort of timeline/overview/summary into the training material, but you can very much modify the tone/personality of standard QnA.
-[Armor](./sidequests/ARMOR.MD)
+Maybe you have a catalog of fine-tunes, and you can remove them from the stack when they're no longer relevant or not performing well.
 
-## Future Updates *in no particular order*
+Maybe you can ask the chatbot to forget a conversation.
 
-* Expanding training testing on full oscars 2023 awards, focusing on most effective training results for the 0.001 learning rate(faster!) and 0.00001 learning rate - in progress [fulloscars](./testoutput/the_oscar_award_txt/lora_results.txt)
-* What impact does LoRA size have on RAM usage?
-* Can I make 10 LoRA for 10 oscar questions, stack them all and get the same accuracy/overhead as 1 LoRA for 10 oscar questions? *not yet, because stacking seems to behave strangely*
-* Using a 1000 character story, can the model be passed the last 200 characters and answer a question from the first 1000 characters? e.g. "What was your dog's name again?" - in progress but not accurate, seems to rely on many more epochs than the successful oscars training, but also may be possible to augment with either dates per line, or line numbers in training data.
+## You can't train a Local LLM like that
 
-## Test Scenarios
+caveat: no one has said that, but I'm sure someone will, and it's probably true.
 
-### Scenario A
+Focusing on what we can do:
 
-Learn about the 2023 Oscar award winners
+* I can create a LoRA on a single line of content and give it knowledge without affecting other knowledge (noticeably)
+  * Trial and error shows that specific learning rate + alpha + batch etc. are required to make this work
+* I can use GTPQ to minimize memory use to LoRA-tize a 30b model
 
-Subscenario 1: Text question, new line, text answer
+Current blockers:
 
-Subscenario 2: Question: Text question, new line, Answer: Text answer
+* I can't stack 4bit LoRA
+* Models don't have any concept of events happening in order, or on a relative date.
 
-Still WIP, but promising results available.
+Unexpected benefits:
 
-### Scenario B
+* The model learns you, and becomes better at answering in a way that you want. If it doesn't, then modifying its responses to be how you like them is a good way for it to develop that skill because that exchange would be LoRA-tized. It would become a type of RLHF.
 
-Lie to me about an established fact that is embedded in LLaMa's knowledge. Not yet started
+Avoiding pitfalls:
 
-### Scenario C
+* Model quality degradation
+  * mixing quality data with the learned data can help the model maintain quality at the cost of learning speed
+  * minimizing the learning rate can help the model maintain quality at the cost of learning speed
+* Using a high learning rate will make the model dumb
+* LoRA training takes time
+  * a range of LoRA training settings has been tested, and needs more testing.
+  * Currently, *10 epochs at 64 LoRA Rate, 128 LoRA Alpha, Learning rate 0.0001, 2 batch size, 256 cutoff, 0.05 LoRA dropout* will teach the model the 2023 Oscar award winner for best actor, including movie.
+  * ~10 seconds is a small enough time that, on its own it would not make a significant difference to a conversation. Alternately "take a 1-minute break every 10 minutes while I learn" is a reasonable request.
+* Stacking LoRA may increase resource usage
+* Continually training may be time-consuming on resource strained devices. Offload micro LoRA training to cloud or other device.
+  * I'm seeing ~ 2 hours to fine tune a 1/3 million word conversation, but that should not be a normal occurrence if the LoRA is being stacked and rolled up.
+  * and/or, can we merge LoRA into other LoRA?
 
-Remember a fact about the 2023 Oscar award winners from a conversation between two people where it is mentioned once. *how does the format that the knowledge is presented in affect the ability to remember it?*
+## We'd still use embeddings
 
-Still WIP and undocumented.
+As previous, LLM's can't be trusted.
 
-## Training Parameters (variables)
+## What's next?
 
-* Number of Epochs
-* LoRA Rank
-* LoRA Alpha
-* Cutoff Length
-* Warmup Steps
-* Learning Rate
+- &#x2611; Test to see if LoRA can be micro trained in a useful way
+- &#x2612; Test to see if 4bit LoRA can be stacked with GPTQ in TextWebUI (not as 29/05/2023)
+- &#x2612; Test to see if 4bit LoRA can be stacked with [JohnSmith](https://github.com/johnsmith0031/alpaca_lora_4bit) in TextWebUI (not as 29/05/2023)
+- &#x2610; Test with GGML *doesn't seem possible yet?*
+- &#x2610; Test with 8bit LoRA *it feels like compromising*
+- &#x2610; Develop an automatic workflow that can LoRA-tize a conversation and stack it
+- &#x2610; Develop a GUI for customizing the workflow (removing unwanted content by regenerating the LoRA containing it)
+- &#x2610; Develop the 'offload to another device' workflow
+- &#x2610; Differentiate behaviours between "Work Chatbot", "Personal Chatbot", "Instruct"
+- &#x2610; Review QLoRA and see if it's a better fit. *isn't it what we've already been doing with GPTQ LoRA?, although I've seen limitations mentioned with the current state of GPTQ LoRA*
 
-## Testing Prompts
+## This is probably already a thing
 
-* QnA *who was the 2023 best actor in a leading role?*
-* QnA *Question: who was the 2023 best actor in a leading role?*
-* Conversation between Joe and Brandine
-* Conversation between Joe and Assistant /w prompt that "Assistant is a helpful AI"
-
-## Training Dataset
-
-* oscarstxt - 2023 Oscar award winners in format "The winner of the 2023 Oscar {AWARDNAME} was {WINNER} for {ROLE}"
-* the_oscar_award_txt - 2023 Oscar award winners in format "Question: The winner of the 2023 Oscar {AWARDNAME} was Answer: {WINNER} for {ROLE}"
-* not yet created - oscars_conversation.txt - Conversation between Joe and Brandine about the 2023 Oscar award winners
-* not yet created - conversation_with_assistant.txt - Conversation between Joe and Assistant about the 2023 Oscar award winners
-* not yet created - story datasets for recollection
-
-## Testing Parameters vs Testing Presets
-
-* Do we evaluate on the established community presets or do we evaluate on a matrix of parameters?
-* Which community presets?
-* Should some Testing Parameters also be modified? e.g. temperature, top_k, top_p, repetition_penalty, length, num_return_sequences, num_beams, no_repeat_ngram_size, do_sample, early_stopping, bad_words_ids, pad_token_id, eos_token_id
-
-## Models to Test
-
-* LLaMA 13B - it is the base model without content/behaviour modifications. i.e. the 'rawest' model but I don't yet have a GPTQ to test with.
-* [GPT4All-13B-snoozy-GPTQ](https://huggingface.co/TheBloke/GPT4All-13B-snoozy-GPTQ) - it is an improved model, and is 13B and 4bit GPTQ. Unlike the LLaMA 13B model I have at the moment, it actually works with my inference.
-
-## Limitations / Caveats
-
-* Using 4bit quantization for the 13B model which reduces accuracy.
-* I haven't done any testing with the GGML formats yet due to speed, but would like to compare.
-* *this really isn't science or factual*
-
-## Stretch Goals
-
-* Establish a baseline bias on a subject of the model, determine minimum effort to sway the bias. Determine optimal approach to sway the bias.
-* Attempt to subvert the model's memory of historical information with South Park parody of the time. e.g. 2004 election, others?
-* Test with GGML q4_0, q5_1 etc.
-* Establish test to determine lost knowledge and changes elsewhere.
-* Can I train a LoRA on 1 dataset, and then resume training the LoRA on another dataset, and how is the content affected?
-* Establish test for LoRA stacking. Memory usage, speed of inference. Training against stacked LoRA.
-* Determine other impacts of LoRA including speed and resources required
-* Compare the results and format that the base model responds in, and how it differs to those of the LoRAtized model
-* Compare a LoRA being used with multiple models, and how it affects the results. e.g. 1 LoRA test against snoozy, vicuna, alpaca etc.
-* Scatter graph
-* Other?
-
-## Code
-
-The code does not currently work in the way that it is provided. It was run from WSL2 Ubuntu in a miniconda environment generated by textgenwebui and run from the alpaca_lora_4bit folder in repository.
-
-* trainbot.py This generates fine tunes for combinations of the training parameters.
-* inferencebot.py This loads the model and LoRA and runs the testing prompts against the model and stores the results
-* resultbot.py This loads the results and asks a model if the result matches the input/assertion
-
-## Credits
-
-[Standing on the shoulders of giants](CREDITS.MD)
-
-[results]: RESULTS.MD
+I'm not aware of it, but I'm not aware of a lot of things. Sometimes you need to get out and push.
