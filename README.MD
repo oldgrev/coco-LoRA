@@ -8,7 +8,7 @@ Local Large Language Model Small Scale Learning.
 
 ## What is this?
 
-LLM's can't be trusted. They're awesome...but
+There is some code here, but it's not going to be useful at this point. The idea here is that LLM's can't be trusted. They're awesome...but
 
 * LLMs hallucinate and make things up
 * Local LLMs have small memories
