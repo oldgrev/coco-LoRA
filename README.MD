@@ -174,7 +174,7 @@ As previous, LLM's can't be trusted.
 - &#x2610; Develop a GUI for customizing the workflow (removing unwanted content by regenerating the LoRA containing it)
 - &#x2610; Develop the 'offload to another device' workflow
 - &#x2610; Differentiate behaviours between "Work Chatbot", "Personal Chatbot", "Instruct"
-- &#x2610; Review QLoRA and see if it's a better fit. *isn't it what we've already been doing with GPTQ LoRA?, although I've seen limitations mentioned with the current state of GPTQ LoRA*
+- &#x2610; Review QLoRA and see if it's a better fit. *isn't this what we've already been doing with GPTQ LoRA?...yes but no*
 
 ## This is probably already a thing
 
