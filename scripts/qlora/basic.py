@@ -11,7 +11,7 @@
 # sudo apt-get update
 # sudo apt-get install cuda
 # export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/lib/wsl/lib/"
-# export PATH=/usr/local/cuda-12.0/bin${PATH:+:${PATH}}
+# export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}     #### THIS MIGHT BE WRONG!
 # 
 # https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
 # conda create -n myqlora python=3.10

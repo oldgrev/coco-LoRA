@@ -17,6 +17,8 @@ There is some code here, but it's not going to be useful at this point. The idea
 
 This git is not Science™, it takes the approach that perfect can be the enemy of good and good information has its uses.
 
+This git wants to continually train your local large language model on your data.
+
 ## Embeddings to the rescue?
 
 Memory mechanisms are available that will dynamically embed parts of your conversation into the LLM.
@@ -137,17 +139,31 @@ Focusing on what we can do:
 
 Current blockers:
 
-* I can't stack 4bit LoRA
+* I can't stack 4bit LoRA with GPTQ
+* I can't stack QLoRA
+* I haven't tried 8bit stacking yet
 * Models don't have any concept of events happening in order, or on a relative date.
 
-Unexpected benefits:
+Advantages:
 
-* The model learns you, and becomes better at answering in a way that you want. If it doesn't, then modifying its responses to be how you like them is a good way for it to develop that skill because that exchange would be LoRA-tized. It would become a type of RLHF.
+The model learns you, and becomes better at answering in a way that you want. If it doesn't, then modifying its responses to be how you like them is a good way for it to develop that skill because that exchange would be LoRA-tized. It would become a type of RLHF.
+
+* https://arxiv.org/abs/2305.02301 *Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes*
+  * More people can potentially develop improvements their own data. i.e. commoditizing LLMs even further
+* https://arxiv.org/abs/2305.15717 *The False Promise of Imitating Proprietary LLMs*
+  * We're not imitating proprietary LLMs, so we're not limited in the same way.
+* study that shows data quality is more important than model size *link*?
+* Approach is applicable to enterprises and individuals
+  * enterprises can begin with a 'dumber' model that improves with human/machine curated interactions additions
+  * individuals *could* share LoRA's without sharing their data directly
+  * both could begin with larger models, and as the dataset is generated, it could be used to train smaller models to be better.
+  * both could begin with smaller models and uplift them over time if they accept a lower quality model to begin with.
+  * smaller models are more performant, and for the same capacity as a larger model, the reduction in model size could be used to increase the context size for the same memory footprint of a larger model.
 
 Avoiding pitfalls:
 
 * Model quality degradation
-  * mixing quality data with the learned data can help the model maintain quality at the cost of learning speed
+  * mixing other quality data with the learned data will help the model maintain quality at the cost of learning speed
   * minimizing the learning rate can help the model maintain quality at the cost of learning speed
 * Using a high learning rate will make the model dumb
 * LoRA training takes time
@@ -175,7 +191,10 @@ As previous, LLM's can't be trusted.
 - &#x2610; Develop the 'offload to another device' workflow
 - &#x2610; Differentiate behaviours between "Work Chatbot", "Personal Chatbot", "Instruct"
 - &#x2610; Review QLoRA and see if it's a better fit. *isn't this what we've already been doing with GPTQ LoRA?...yes but no*
+- &#x2610; Review GPTQLoRA. https://github.com/qwopqwop200/gptqlora
 
 ## This is probably already a thing
 
 I'm not aware of it, but I'm not aware of a lot of things. Sometimes you need to get out and push.
+
+*"Yeah, yeah, I know, I don’t have the math,"*
