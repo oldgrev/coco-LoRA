@@ -17,7 +17,9 @@ There is some code here, but it's not going to be useful at this point. The idea
 
 This git is not Science™, it takes the approach that perfect can be the enemy of good and good information has its uses.
 
-This git wants to continually train your local large language model on your data.
+This git wants to continually train your local large language model on your data. e.g.
+
+![Automap](./images/automap.png "automap")
 
 ## Embeddings to the rescue?
 
@@ -175,7 +177,7 @@ Avoiding pitfalls:
   * I'm seeing ~ 2 hours to fine tune a 1/3 million word conversation, but that should not be a normal occurrence if the LoRA is being stacked and rolled up.
   * and/or, can we merge LoRA into other LoRA?
 
-## We'd still use embeddings
+## We should still use embeddings
 
 As previous, LLM's can't be trusted.
 
@@ -192,9 +194,10 @@ As previous, LLM's can't be trusted.
 - &#x2610; Differentiate behaviours between "Work Chatbot", "Personal Chatbot", "Instruct"
 - &#x2610; Review QLoRA and see if it's a better fit. *isn't this what we've already been doing with GPTQ LoRA?...yes but no*
 - &#x2610; Review GPTQLoRA. https://github.com/qwopqwop200/gptqlora
+- &#x2610; Work out how to hit a moving target
 
 ## This is probably already a thing
 
 I'm not aware of it, but I'm not aware of a lot of things. Sometimes you need to get out and push.
 
-*"Yeah, yeah, I know, I don’t have the math,"*
+[*"Yeah, yeah, I know, I don’t have the math,"*](./sidequests/MATH.TXT)
