@@ -1,6 +1,13 @@
 # COmputed COntextualization for Low Rank Adaptation
 
-Local Large Language Model Small Scale Learning.
+Local Large Language Model Small Scale Learning. Currently for both LoRA and qLoRA:
+
+* I(*we*) can train LoRA on a small dataset and get an inference based on the content.
+* We can load multiple LoRA into a model, but only one is active at at time using set_adapter().
+* We can load a model, apply a LoRA, and then train it to generate a combined LoRA adapter based on the model + LoRA.
+* We can't stack LoRA and have the inference reply with both knowledgesets, because the LoRA's replace the same data/layers.
+  * Can LoRA's themselves be averaged? Probably, but probably not satisfactorily.
+  * A comparison would be that we are doing incremental checkpoints, not differential.
 
 ![remember me](./images/rememberme.jpg "Bender said it best remember me")
 
