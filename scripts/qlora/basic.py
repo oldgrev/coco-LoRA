@@ -25,7 +25,7 @@
 
 
 device = "cuda:0"
-model_name = "models/decapoda-research_llama-7b-hf/"   #local on my machine
+model_name = "/home/grev/models/decapoda-research_llama-7b-hf/"   #local on my machine
 
 
 import torch
