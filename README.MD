@@ -1,5 +1,7 @@
 # COmputed COntextualization for Low Rank Adaptation
 
+*currently working on the technical blocker of merging a LoRA directly into another LoRA in the loratolora repo*
+
 Local Large Language Model Small Scale Learning. Currently, for both LoRA and qLoRA:
 
 * I(*we*) can train LoRA on a small dataset and get an inference based on the content.
